@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function calc() {   // function을 함수라고 한다. 함수도 문장의 집합이다.
+            var x = document.getElementById("x").value;     // id가 "x"인 요소의 값을 가져온다.
+            var y = document.getElementById("y").value;
+            var sum;
+
+            sum = parseInt(x) + parseInt(y);
+            document.getElementById("sum").value = sum;
+        }
+    </script>
+</head>
+<body>
+    <h3>덧셈 계산기</h3>
+    <form name="myform" action="..." method="post">
+        첫번째 정수:     <input id="x" /><br />
+        두번째 정수:     <input id="y" /><br />
+        합계:           <input id="sum" /><br />
+        <input type="button" value="계산" onclick="calc();" />
+    </form>
+</body>
+</html>

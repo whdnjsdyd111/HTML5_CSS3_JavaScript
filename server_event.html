@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        window.onload = function () {
+            if (typeof (EventSource) !== "undefined") {
+                var source = new EventSource("test.jsp");
+                source.onmessage = function (event) {
+                    document.getElementById("result").innerHTML += event.data + "<br>"
+                };
+            }
+            else {
+                alert("웹 브라우저가 서버 전송 이벤트를 지원하지 않음")
+            }
+        }
+    </script>
+</head>
+<body>
+    <!-- 이 파일과 test.jsp 는 톰캣 디렉토리/webapps/ROOT 아래에 두어야 함 -->
+    <h1>서버 전송 이벤트</h1>
+    <output id="result"></output>
+    <!-- 주소란에 localhost:8000/server_event.html 입력 -->
+</body>
+</html>

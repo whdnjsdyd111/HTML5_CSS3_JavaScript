@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>  이미지 버튼
+    경우에 따라서 버튼을 이미지로 만들고 싶을 때가 있다. 이미지 버튼은 2가지 방법으로 가능하다.
+
+    <!--    <button type="submit"><img src="submit.png"></button>   -->
+    <!--    <input type="image" src="submit.png" alt="제출 버튼">   -->
+
+    input 태그로 작성된 이미지 버튼은 항상 제출 버튼의 역할만을 한다. button 태그를 사용하면 어떤 버튼도 이미지로 작성할 수 있다.
+
+    <form name="input" action="getid.jsp" method="get">
+        아이디 : 
+        <input type="text" name="name" /><br />
+        <input type="image" src="submit.png" alt="제출 버튼" />
+    </form>
+</body>
+</html>

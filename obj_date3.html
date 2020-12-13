@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div id="remaining"></div>
+    <script>
+        function datesUntilNewYear() {
+            var now = new Date();
+            var newYear = new Date('Jauary 1, ' + (now.getFullYear() + 1));
+
+            var diff = newYear - now;
+            var milliseconds = Math.floor(diff % 1000);
+
+            diff /= 1000;
+            var seconds = Math.floor(diff % 60);
+
+            diff /= 60;
+            var minutes = Math.floor(diff % 60);
+
+            diff /= 60;
+            var hours = Math.floor(diff % 24);
+
+            diff /= 24;
+            var days = Math.floor(diff);
+
+            var outStr = '내년도 신정까지 ' + days + '일, ' + hours + '시간, ' + minutes;
+            outStr += '분, ' + seconds + '초 남았습니다.';
+
+            document.getElementById('remaining').innerHTML = outStr;
+
+            setTimeout("datesUntilNewYear()", 1000);
+        }
+
+        datesUntilNewYear();
+    </script>
+</body>
+</html>

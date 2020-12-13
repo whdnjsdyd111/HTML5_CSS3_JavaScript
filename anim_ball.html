@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        @-webkit-keyframes bounce {
+            from, to {
+                bottom: 0px;
+                animation-timing-function: ease-out
+            }
+
+            50% {
+                bottom: 50px;
+                animation-timing-function: ease-in;
+            }
+        }
+
+        div {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background: red;
+            border-radius: 10px;
+
+            animation-name: bounce;
+            animation-iteration-count: infinite;
+            animation-duration: 0.7s;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

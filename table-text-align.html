@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        table.test1, table.test1 td, table.test1 th { border: 1px solid blue; }
+        table.test1 { width: 100%; }
+        table.test1 td { text-align: center; }
+
+        table.test2, table.test2 td, table.test2 th { border: 1px solid blue; }
+        table.test2 td {
+            vertical-align: bottom;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    테이블 텍스트 정렬
+    text-align 속성은 테이블 안의 텍스트 정렬을 설정한다. left, right, center 등으로 설정할 수 있다.
+
+    <table class="test1">
+        <tr>
+            <th>이름</th>
+            <th>이메일</th>
+        </tr>
+
+        <tr>
+            <td>김철수</td>
+            <td>chul@google.com</td>
+        </tr>
+
+        <tr>
+            <td>김영희</td>
+            <td>young@google.com</td>
+        </tr>
+    </table>
+
+    수직 방향의 정렬은 vertical-align 속성을 사용한다.
+
+    <table class="test2">
+        <tr>
+            <th>이름</th>
+            <th>이메일</th>
+        </tr>
+
+        <tr>
+            <td>김철수</td>
+            <td>chul@google.com</td>
+        </tr>
+
+        <tr>
+            <td>김영희</td>
+            <td>young@google.com</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>  iframe의 속성
+    예전에는 많은 속성(frameborder, scrolling, marginwidth, marginheight)을 지원하였으나 HTML5에서는 이러한 속성을 더 이상 지원하지 않는다.
+    
+    - 새로 추가된 속성으로 seamless가 있다. seamless를 설정하면 경계선이 없이 문서의 일부인 것처럼 화면에 그려진다.
+    <!--    <iframe src="inner.html width="300" height"200" seamless></iframe>      -->
+
+    iframe은 링크의 타겟 프레임으로 사용될 수 있다. 하나의 예제로 사용자가 버튼을 누르면 iframe에 특정한 웹 페이지를 표시하는 HTML 소스를 작성하여 보자.
+    링크의 타겟 속성은 iframe에서 지정된 이름을 참조해야 한다.
+
+    <iframe src="" name="iframe"></iframe>
+    <p><a href="https://www.w3.org" target="iframe">월드와이드웹 컨소시엄</a></p>
+
+    <p><b>참고:</b> 링크를 클릭하면 iframe 안에서 홈페이지가 열립니다.</p>
+</body>
+</html>

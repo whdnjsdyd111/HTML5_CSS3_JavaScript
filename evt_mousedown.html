@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function OnButtonDown(elem) {
+            elem.style.color = "#ff0000";
+        }
+        function OnButtonUp(elem) {
+            elem.style.color = "#000000";
+        }
+    </script>
+</head>
+<body>
+    <button onmousedown="OnButtonDown(this)" onmouseup="OnButtonUp(this)">눌러보세요</button>
+</body>
+</html>

@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body onload="init()">
+    <canvas id="myCanvas" width="300" height="200"></canvas>
+    <script>
+        var context;
+
+        function init() {
+            setInterval(alarm, 100);
+        }
+
+        function alarm() {
+            context = document.getElementById('myCanvas').getContext('2d');
+            context.clearRect(0, 0, 300, 200);
+            dial();
+            second();
+            minute();
+            hour();
+        }
+
+        function dial() {
+            context.beginPath();
+            context.arc(50, 50, 50, 2 * Math.PI, false);
+            context.stroke();
+
+            context.beginPath();
+            context.moveTo(50, 0);
+            context.lineTo(50, 10);
+            context.stroke();
+
+            context.beginPath();
+            context.moveTo(50, 100);
+            context.lineTo(50, 90);
+            context.stroke();
+
+            context.beginPath();
+            context.moveTo(0, 50);
+            context.lineTo(10, 50);
+            context.stroke();
+
+            context.beginPath();
+            context.moveTo(100, 50);
+            context.lineTo(90, 50);
+            context.stroke();
+
+            context.beginPath();
+            context.moveTo(75, 50 -(Math.sin(Math.PI / 3) * 50) );
+            context.lineTo(70, 50 -(Math.sin(Math.PI / 3) * 40) );
+            context.stroke();
+
+            context.beginPath();
+            context.moveTo(25, 50 - (Math.sin(Math.PI / 3) * 50));
+            context.lineTo(30, 50 - (Math.sin(Math.PI / 3) * 40));
+            context.stroke();
+
+            context.beginPath();
+            context.moveTo(75, 50 + (Math.sin(Math.PI / 3) * 50));
+            context.lineTo(70, 50 + (Math.sin(Math.PI / 3) * 40));
+            context.stroke();
+
+            context.beginPath();
+            context.moveTo(25, 50 + (Math.sin(Math.PI / 3) * 50));
+            context.lineTo(30, 50 + (Math.sin(Math.PI / 3) * 40));
+            context.stroke();
+
+            context.beginPath();
+            context.moveTo(50 + (Math.sin(Math.PI / 3) * 50), 25);
+            context.lineTo(50 + (Math.sin(Math.PI / 3) * 40), 30);
+            context.stroke();
+
+            context.beginPath();
+            context.moveTo(50 - (Math.sin(Math.PI / 3) * 50), 25);
+            context.lineTo(50 - (Math.sin(Math.PI / 3) * 40), 30);
+            context.stroke();
+
+            context.beginPath();
+            context.moveTo(50 + (Math.sin(Math.PI / 3) * 50), 75);
+            context.lineTo(50 + (Math.sin(Math.PI / 3) * 40), 70);
+            context.stroke();
+
+            context.beginPath();
+            context.moveTo(50 - (Math.sin(Math.PI / 3) * 50), 75);
+            context.lineTo(50 - (Math.sin(Math.PI / 3) * 40), 70);
+            context.stroke();
+            
+        }
+
+        function second() {
+            var seconds = new Date().getSeconds();
+            var secondAngle = - Math.PI * seconds / 30 + Math.PI * 0.5;
+            context.beginPath();
+            context.moveTo(50, 50);
+            context.lineTo(50 + (Math.cos(secondAngle) * 50), 50 - (Math.sin(secondAngle) * 50));
+            context.strokeStyle = 'red';
+            context.stroke();
+        }
+
+        function minute() {
+            var minutes = new Date().getMinutes();
+            var minuteAngle = - Math.PI * minutes / 30 + Math.PI * 0.5;
+            context.beginPath();
+            context.moveTo(50, 50);
+            context.lineTo(50 + (Math.cos(minuteAngle) * 50), 50 - (Math.sin(minuteAngle) * 50));
+            context.strokeStyle = 'black';
+            context.stroke();
+        }
+
+        function hour() {
+            var hours = new Date().getHours();
+            var hourAngle = - Math.PI * hours / 6 + Math.PI * 0.5;
+            context.beginPath();
+            context.moveTo(50, 50);
+            context.lineTo(50 + (Math.cos(hourAngle) * 30), 50 - (Math.sin(hourAngle) * 30));
+            context.strokeStyle = 'black';
+            context.stroke();
+        }
+    </script>
+
+</body>
+</html>

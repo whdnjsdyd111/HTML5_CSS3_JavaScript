@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    경계선 스타일
+    경계선 스타일은 border-style로 설정할 수 있다. 아래 예제에서는 인라인 스타일 시트를 이용해 각 단락의 경계선 스타일을
+    다르게 하여 화면에 표시하였다.
+
+    <p style="border-style: none">none.</p>
+    <p style="border-style: dotted">dotted.</p>
+    <p style="border-style: dashed">dashed.</p>
+    <p style="border-style: solid">solid.</p>
+    <p style="border-style: double">double</p>
+    <p style="border-style: groove">groove</p>
+    <p style="border-style: ridge">ridge</p>
+    <p style="border-style: inset">inset</p>
+    <p style="border-style: outset">outset</p>
+
+    border-style이 groove, ridge, inset, outset으로 설정되면 약간의 3D 효과를 발생시킨다.
+    다만 인터넷 익스플로러는 3D 효과를 지원하지 않는다. 크롬 브라우저로 실행해 보자.
+
+    만약 상하좌우 경계선 스타일을 모두 다르게 설정하고 싶으면 다음과 같이 설정한다.
+
+    <p style="border-top-style: dotted;
+            border-right-style: solid;
+            border-bottom-style: double;
+            border-left-style: dashed;">
+        4개의 경계선이 모두 다르게 설정됨
+    </p>
+
+    <p style="border-style: dotted solid double dashed; ">
+        위와 같은 설정은 한 줄로도 가능하다.
+    </p>
+</body>
+</html>

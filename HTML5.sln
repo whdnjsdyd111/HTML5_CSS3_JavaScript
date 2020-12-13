@@ -1,0 +1,1083 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4B4E4D62-E7DD-4913-9175-C525A7D8193B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02장 HTML 기본 요소", "02장 HTML 기본 요소", "{80B047D4-F902-4A27-BE53-CE809388935D}"
+	ProjectSection(SolutionItems) = preProject
+		2_Question08.html = 2_Question08.html
+		2_Question09.html = 2_Question09.html
+		2_Question10.html = 2_Question10.html
+		2_Question11.html = 2_Question11.html
+		2_Question12.html = 2_Question12.html
+		2_Question13.html = 2_Question13.html
+		2_Question14.html = 2_Question14.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 텍스트 표시", "02 텍스트 표시", "{0312D556-A7A9-4779-B384-E00E10B91ACB}"
+	ProjectSection(SolutionItems) = preProject
+		2_02_Question.html = 2_02_Question.html
+		body.html = body.html
+		br.html = br.html
+		comment.html = comment.html
+		heading.html = heading.html
+		hr.html = hr.html
+		para.html = para.html
+		pre.html = pre.html
+		specialCharacter.html = specialCharacter.html
+		text.html = text.html
+		textstyle.html = textstyle.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 리스트", "03 리스트", "{81D63D2F-5A46-4F34-9D35-9991ADCD3665}"
+	ProjectSection(SolutionItems) = preProject
+		dl.html = dl.html
+		korean.html = korean.html
+		ol.html = ol.html
+		ul.html = ul.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 링크", "04 링크", "{E9ADABAA-AFD2-4A31-915C-7973753EBB9F}"
+	ProjectSection(SolutionItems) = preProject
+		link.html = link.html
+		link_base.html = link_base.html
+		link_download.html = link_download.html
+		link_email.html = link_email.html
+		link_id.html = link_id.html
+		link_target.html = link_target.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 이미지", "05 이미지", "{4C57D363-C5D2-4407-A71B-8654F2A01ED4}"
+	ProjectSection(SolutionItems) = preProject
+		2_05_Question01.html = 2_05_Question01.html
+		2_05_Question02_photo1.html = 2_05_Question02_photo1.html
+		2_05_Question02_photo2.html = 2_05_Question02_photo2.html
+		2_05_Question02_thumbnail.html = 2_05_Question02_thumbnail.html
+		align.html = align.html
+		image.html = image.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 테이블", "06 테이블", "{DC3EF77F-3394-4CA1-A78D-48E8C7C41695}"
+	ProjectSection(SolutionItems) = preProject
+		2_06_Question01.html = 2_06_Question01.html
+		2_06_Question02.html = 2_06_Question02.html
+		2_06_Question03.html = 2_06_Question03.html
+		2_06_Question04.html = 2_06_Question04.html
+		2_06_Question04_menu.html = 2_06_Question04_menu.html
+		table.html = table.html
+		table_border.html = table_border.html
+		table_caption.html = table_caption.html
+		table_cell.html = table_cell.html
+		table_span.html = table_span.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03장 HTML5 멀티미디어와 입력 양식", "03장 HTML5 멀티미디어와 입력 양식", "{AA4F4482-EA29-4E92-83C6-FDBA5ED37CD9}"
+	ProjectSection(SolutionItems) = preProject
+		3_Question04.html = 3_Question04.html
+		3_Question05.html = 3_Question05.html
+		3_Question06.html = 3_Question06.html
+		3_Question07.html = 3_Question07.html
+		3_Question08.html = 3_Question08.html
+		3_Question09.html = 3_Question09.html
+		3_Question10.html = 3_Question10.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 오디오", "02 오디오", "{C6307A12-7269-4D3D-B569-936C2A93EBF5}"
+	ProjectSection(SolutionItems) = preProject
+		audio.html = audio.html
+		audio_source.html = audio_source.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 비디오", "03 비디오", "{69541AD9-D884-40CE-9153-F7266072DE0F}"
+	ProjectSection(SolutionItems) = preProject
+		video.html = video.html
+		video_kind.html = video_kind.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 iframe", "04 iframe", "{0F53D31E-6378-4971-AA82-754EC26568C1}"
+	ProjectSection(SolutionItems) = preProject
+		iframe.html = iframe.html
+		iframe_inner.html = iframe_inner.html
+		iframe_onlineEditor.html = iframe_onlineEditor.html
+		iframe_property.html = iframe_property.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 div와 span", "05 div와 span", "{E2DC8AE7-352C-4258-B485-C29C37DB1E52}"
+	ProjectSection(SolutionItems) = preProject
+		div span.html = div span.html
+		div_box.html = div_box.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 HTML 입력 양식", "06 HTML 입력 양식", "{E8DA3FDC-16F1-455A-842D-E4DDA1676EB8}"
+	ProjectSection(SolutionItems) = preProject
+		입력 양식.txt = 입력 양식.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 입력 태그 1", "07 입력 태그 1", "{E1D9AC9A-BCA2-4698-A386-6DC54FE1E483}"
+	ProjectSection(SolutionItems) = preProject
+		input.html = input.html
+		input_button.html = input_button.html
+		input_checkbox.html = input_checkbox.html
+		input_imageButton.html = input_imageButton.html
+		input_inputButton.html = input_inputButton.html
+		input_password.html = input_password.html
+		input_radio.html = input_radio.html
+		input_submit reset.html = input_submit reset.html
+		input_text.html = input_text.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08 입력 태그 2", "08 입력 태그 2", "{9D6F43C2-17DE-430A-80AF-4302DE0705EB}"
+	ProjectSection(SolutionItems) = preProject
+		fieldset.html = fieldset.html
+		fileupload.html = fileupload.html
+		hidden.html = hidden.html
+		label.html = label.html
+		select.html = select.html
+		textarea.html = textarea.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09 HTML5 입력 요소", "09 HTML5 입력 요소", "{A8331A41-F983-4517-86E2-3C209CF6DF5C}"
+	ProjectSection(SolutionItems) = preProject
+		3_09_Question01.html = 3_09_Question01.html
+		3_09_Question02.html = 3_09_Question02.html
+		date.html = date.html
+		email.html = email.html
+		HTML5.html = HTML5.html
+		input-color.html = input-color.html
+		number.html = number.html
+		range.html = range.html
+		search.html = search.html
+		tel.html = tel.html
+		time.html = time.html
+		url.html = url.html
+		정규식.html = 정규식.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04장 CSS3 스타일 시트 기초", "04장 CSS3 스타일 시트 기초", "{9CEF56F3-F995-4B60-B4D0-4B1E7F7C50EE}"
+	ProjectSection(SolutionItems) = preProject
+		4_Question12.html = 4_Question12.html
+		4_Question13.html = 4_Question13.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 CSS 개념", "01 CSS 개념", "{8D70081D-1F8A-47A7-B208-31E15CF1ED60}"
+	ProjectSection(SolutionItems) = preProject
+		CSS 개념.txt = CSS 개념.txt
+		CSS.html = CSS.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 선택자", "02 선택자", "{698EB732-C7A0-4265-9353-4089043796DD}"
+	ProjectSection(SolutionItems) = preProject
+		class-selector.html = class-selector.html
+		combiner.html = combiner.html
+		ID-selector.html = ID-selector.html
+		property-selector.html = property-selector.html
+		pseudo-class.html = pseudo-class.html
+		select-group.html = select-group.html
+		selector.html = selector.html
+		type-selector.html = type-selector.html
+		universal-selector.html = universal-selector.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 CSS 삽입 방법", "03 CSS 삽입 방법", "{17624F81-87C5-4E27-9D5B-4BEA88319868}"
+	ProjectSection(SolutionItems) = preProject
+		4_03_1.css = 4_03_1.css
+		4_03_Question.css = 4_03_Question.css
+		4_03_Question.html = 4_03_Question.html
+		4_03_Question_1.css = 4_03_Question_1.css
+		4_03_Question_2.css = 4_03_Question_2.css
+		4_03_Question_3.css = 4_03_Question_3.css
+		external-style-sheet.html = external-style-sheet.html
+		inline-style-sheet.html = inline-style-sheet.html
+		inner-style-sheet.html = inner-style-sheet.html
+		multiple-style-sheet.html = multiple-style-sheet.html
+		properties.html = properties.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 색상", "04 색상", "{A2019F8A-862C-4D45-B368-FF600ED1B76A}"
+	ProjectSection(SolutionItems) = preProject
+		4_04_Question.html = 4_04_Question.html
+		color.txt = color.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 폰트", "05 폰트", "{156F8C6C-66A4-4915-B05F-9FFD7396686D}"
+	ProjectSection(SolutionItems) = preProject
+		font-size.html = font-size.html
+		font-style.html = font-style.html
+		font.txt = font.txt
+		web-font.html = web-font.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 텍스트 스타일 설정", "06 텍스트 스타일 설정", "{E92946B6-9B86-4096-8F07-BD2BE45FF477}"
+	ProjectSection(SolutionItems) = preProject
+		multiple-column.html = multiple-column.html
+		text-align.html = text-align.html
+		text-decoration.html = text-decoration.html
+		text-shadow.html = text-shadow.html
+		text-style.txt = text-style.txt
+		text-transform.html = text-transform.html
+		word-wrapping.html = word-wrapping.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05장 CSS3 박스 모델과 응용", "05장 CSS3 박스 모델과 응용", "{26A3CB69-6492-4AAB-9344-8F01B538C4BF}"
+	ProjectSection(SolutionItems) = preProject
+		5_Question06.html = 5_Question06.html
+		5_Question07.html = 5_Question07.html
+		5_Question08.html = 5_Question08.html
+		5_Question09.html = 5_Question09.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 박스 모델", "01 박스 모델", "{D5742A21-C9B9-403B-B764-01C2EEC523BE}"
+	ProjectSection(SolutionItems) = preProject
+		박스 모델.txt = 박스 모델.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 경계선", "02 경계선", "{BFFE9D40-7FC8-41FE-8405-9F502DD42CA8}"
+	ProjectSection(SolutionItems) = preProject
+		border-color.html = border-color.html
+		border-image.html = border-image.html
+		border-radius.html = border-radius.html
+		border-style.html = border-style.html
+		border-width.html = border-width.html
+		box-shadow.html = box-shadow.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 마진과 패딩", "03 마진과 패딩", "{676177C2-A68D-4091-BA80-6DB38091EC62}"
+	ProjectSection(SolutionItems) = preProject
+		box_model.html = box_model.html
+		elem-resize.html = elem-resize.html
+		elem-size.html = elem-size.html
+		margin.txt = margin.txt
+		margin_padding.html = margin_padding.html
+		margin_property.html = margin_property.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 배경 설정하기", "04 배경 설정하기", "{ACE4DAA6-D350-4729-88BC-6A2939BB44C1}"
+	ProjectSection(SolutionItems) = preProject
+		back-image.html = back-image.html
+		back-image2.html = back-image2.html
+		back-size.html = back-size.html
+		background.txt = background.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 링크 스타일", "05 링크 스타일", "{15F5EFB4-686E-4EE8-824C-C041383996F5}"
+	ProjectSection(SolutionItems) = preProject
+		link-anotherStyle.html = link-anotherStyle.html
+		link-style.html = link-style.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 리스트 스타일", "06 리스트 스타일", "{C3F09E04-EC79-4AF4-851B-D1E675847A8A}"
+	ProjectSection(SolutionItems) = preProject
+		5_06_Question.html = 5_06_Question.html
+		list-style.html = list-style.html
+		list-style.txt = list-style.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 테이블 스타일", "07 테이블 스타일", "{C2C452D3-E3E4-4A6E-98F8-C43A020618E7}"
+	ProjectSection(SolutionItems) = preProject
+		5_07_Question.html = 5_07_Question.html
+		table-back.html = table-back.html
+		table-border.html = table-border.html
+		table-caption.html = table-caption.html
+		table-collapse.html = table-collapse.html
+		table-empty.html = table-empty.html
+		table-size.html = table-size.html
+		table-style.txt = table-style.txt
+		table-text-align.html = table-text-align.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06장 CSS3 레이아웃과 애니메이션", "06장 CSS3 레이아웃과 애니메이션", "{649F56EE-2E3B-4695-905E-E065B2702A1C}"
+	ProjectSection(SolutionItems) = preProject
+		6_Question08.html = 6_Question08.html
+		6_Question09.html = 6_Question09.html
+		6_Question10.html = 6_Question10.html
+		6_Question11.html = 6_Question11.html
+		6_Question12.html = 6_Question12.html
+		6_Question13.html = 6_Question13.html
+		6_Question14.html = 6_Question14.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 레이아웃 기초", "01 레이아웃 기초", "{12B7E3D0-0B4F-4285-81E2-03C1DCE2A4D8}"
+	ProjectSection(SolutionItems) = preProject
+		block.html = block.html
+		display.html = display.html
+		general.html = general.html
+		inline.html = inline.html
+		layout.txt = layout.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 요소 위치 정하기", "02 요소 위치 정하기", "{5B24C04D-E562-4F6C-8EF7-5BCC7E30FCF1}"
+	ProjectSection(SolutionItems) = preProject
+		6_02_정리.txt = 6_02_정리.txt
+		absolute positioning.html = absolute positioning.html
+		elem-min_max-size.html = elem-min_max-size.html
+		fixed positioning.html = fixed positioning.html
+		float.html = float.html
+		float.txt = float.txt
+		gallery.html = gallery.html
+		overflow.html = overflow.html
+		relative positioning.html = relative positioning.html
+		static-positioning.html = static-positioning.html
+		z-index.html = z-index.html
+		z-index.txt = z-index.txt
+		z-index1.html = z-index1.html
+		z-index2.html = z-index2.html
+		요소 위치 정하기.txt = 요소 위치 정하기.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 div 요소를 이용한 레이아웃", "03 div 요소를 이용한 레이아웃", "{E15B887F-6DDD-42E0-98AB-ED51E53D4E8B}"
+	ProjectSection(SolutionItems) = preProject
+		div를 이용한 레이아웃.txt = div를 이용한 레이아웃.txt
+		layout1.html = layout1.html
+		layout2.html = layout2.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 의미적 요소를 이용한 레이아웃", "04 의미적 요소를 이용한 레이아웃", "{DB98E69B-5FB0-4B57-9F1E-732D9763C830}"
+	ProjectSection(SolutionItems) = preProject
+		layout3.html = layout3.html
+		의미적 요소를 이용한 레이아웃.txt = 의미적 요소를 이용한 레이아웃.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 효과", "05 효과", "{FB312B33-B76F-464B-86E9-D9C7235B2455}"
+	ProjectSection(SolutionItems) = preProject
+		multiple transition.html = multiple transition.html
+		opacity.html = opacity.html
+		transition.html = transition.html
+		visible.html = visible.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 CSS 변환", "06 CSS 변환", "{3E5BCE62-3E7A-40D8-BA92-FD3DFAED7E57}"
+	ProjectSection(SolutionItems) = preProject
+		matrix.html = matrix.html
+		skew.html = skew.html
+		transform_mix.html = transform_mix.html
+		transformation.txt = transformation.txt
+		translate.html = translate.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 CSS 3차원 변환", "07 CSS 3차원 변환", "{F1191CA8-5095-426E-A612-FBAB28C4103D}"
+	ProjectSection(SolutionItems) = preProject
+		CSS 3차원 변환.txt = CSS 3차원 변환.txt
+		transform3d.html = transform3d.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08 CSS3 애니메이션", "08 CSS3 애니메이션", "{32990BD7-0BBB-41E0-ACF1-9CA727078189}"
+	ProjectSection(SolutionItems) = preProject
+		anim_ball.html = anim_ball.html
+		animation.html = animation.html
+		CSS3 애니메이션.txt = CSS3 애니메이션.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07장 HTML과 CSS로 웹 사이트 만들기", "07장 HTML과 CSS로 웹 사이트 만들기", "{890B4043-12B2-4F62-B73B-EC66D1D7A4F0}"
+	ProjectSection(SolutionItems) = preProject
+		7_about us.html = 7_about us.html
+		7_computer.html = 7_computer.html
+		7_food.html = 7_food.html
+		7_index.html = 7_index.html
+		7_intarier.html = 7_intarier.html
+		7_movie.html = 7_movie.html
+		7_music.html = 7_music.html
+		7_MyAccount.html = 7_MyAccount.html
+		7_mystyle.css = 7_mystyle.css
+		7_NEWS.html = 7_NEWS.html
+		7_password.html = 7_password.html
+		7_register.html = 7_register.html
+		7_shopcart.html = 7_shopcart.html
+		7_sport.html = 7_sport.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 웹 사이트 작성", "01 웹 사이트 작성", "{C00BB5F4-1CCC-4E93-921F-14117D7146E9}"
+	ProjectSection(SolutionItems) = preProject
+		웹 사이트 작성.txt = 웹 사이트 작성.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 HTML 문서 작성하기", "02 HTML 문서 작성하기", "{87B23E24-467C-4CAC-A400-6F9C862C86AD}"
+	ProjectSection(SolutionItems) = preProject
+		HTML 문서 작성하기.txt = HTML 문서 작성하기.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 CSS 파일 작성하기", "03 CSS 파일 작성하기", "{AC4FB8E3-33F7-4CC8-8D37-ADCD0D1C9FDE}"
+	ProjectSection(SolutionItems) = preProject
+		CSS 파일 작성하기.txt = CSS 파일 작성하기.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 완성된 웹 페이지 보기", "04 완성된 웹 페이지 보기", "{4AB960D2-6079-4767-83FC-1AEA032E574C}"
+	ProjectSection(SolutionItems) = preProject
+		웹 페이지 테스트.txt = 웹 페이지 테스트.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08장 자바스크립트 기초", "08장 자바스크립트 기초", "{193F769F-C50B-412D-B6A3-56F0680BA625}"
+	ProjectSection(SolutionItems) = preProject
+		8_Question10.html = 8_Question10.html
+		8_Question11.html = 8_Question11.html
+		8_Question12.html = 8_Question12.html
+		8_Question13.html = 8_Question13.html
+		8_Question14.html = 8_Question14.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 자바스크립트 소개", "01 자바스크립트 소개", "{37C989BF-8593-4988-8FCD-629AF249978B}"
+	ProjectSection(SolutionItems) = preProject
+		first_js.html = first_js.html
+		자바스크립트 소개.txt = 자바스크립트 소개.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 자바스크립트의 용도", "02 자바스크립트의 용도", "{FAD5B472-332C-4174-A0BC-7D1834F5263A}"
+	ProjectSection(SolutionItems) = preProject
+		second_js.html = second_js.html
+		자바스크립트의 용도.txt = 자바스크립트의 용도.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 자바스크립트의 위치", "03 자바스크립트의 위치", "{60B2ADE1-D98D-4F8D-A420-56AE100776F6}"
+	ProjectSection(SolutionItems) = preProject
+		8_03_script.js = 8_03_script.js
+		js_external.html = js_external.html
+		js_inline.html = js_inline.html
+		js_inner.html = js_inner.html
+		자바스크립트의 위치.txt = 자바스크립트의 위치.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 문장", "04 문장", "{7AF2B297-DDAC-4F6C-A2CE-D4529A8F432D}"
+	ProjectSection(SolutionItems) = preProject
+		자바스크립트 문장.txt = 자바스크립트 문장.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 변수", "05 변수", "{B3E71785-2BE4-43CC-92A5-F5B28A4FA680}"
+	ProjectSection(SolutionItems) = preProject
+		js_var.html = js_var.html
+		변수.txt = 변수.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 자료형", "06 자료형", "{2729279A-EC18-4E3E-A93B-CBE14ABFB173}"
+	ProjectSection(SolutionItems) = preProject
+		js_var_str.html = js_var_str.html
+		js_var_type.html = js_var_type.html
+		자료형.txt = 자료형.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 연산자", "07 연산자", "{302AB712-D93D-471B-85BA-826771293451}"
+	ProjectSection(SolutionItems) = preProject
+		js_op_arith.html = js_op_arith.html
+		js_op_arith1.html = js_op_arith1.html
+		js_op_compa.html = js_op_compa.html
+		js_op_logic.html = js_op_logic.html
+		연산자.txt = 연산자.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08 숫자와 문자열 사이의 변환", "08 숫자와 문자열 사이의 변환", "{90D6906A-7D52-4C6B-A16B-F1F7485E5A41}"
+	ProjectSection(SolutionItems) = preProject
+		js_get_elem.html = js_get_elem.html
+		js_parse.html = js_parse.html
+		js_parse1.html = js_parse1.html
+		js_prompt.html = js_prompt.html
+		숫자와 문자열 사이의 변환.txt = 숫자와 문자열 사이의 변환.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09 조건문", "09 조건문", "{1CCE700B-3FE8-4A06-884A-4552DFEB3CDF}"
+	ProjectSection(SolutionItems) = preProject
+		js_guess.html = js_guess.html
+		js_if.html = js_if.html
+		js_switch.html = js_switch.html
+		조건문.txt = 조건문.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 반복문", "10 반복문", "{6247A7B9-2208-4631-9628-864439059778}"
+	ProjectSection(SolutionItems) = preProject
+		js_break.html = js_break.html
+		js_continue.html = js_continue.html
+		js_do_while.html = js_do_while.html
+		js_for.html = js_for.html
+		js_for1.html = js_for1.html
+		js_for_in.html = js_for_in.html
+		js_for_temp.html = js_for_temp.html
+		js_nested_loop.html = js_nested_loop.html
+		js_while.html = js_while.html
+		반복문.txt = 반복문.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11 배열", "11 배열", "{60667ED4-2514-4AAA-AFEE-5C716394AD8B}"
+	ProjectSection(SolutionItems) = preProject
+		array_assoc.html = array_assoc.html
+		array_assoc1.html = array_assoc1.html
+		js_array.html = js_array.html
+		배열.txt = 배열.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12 함수", "12 함수", "{AEE3E9C1-044D-4CBD-98D0-E8A9BBFE07FE}"
+	ProjectSection(SolutionItems) = preProject
+		js_func.html = js_func.html
+		js_func_arg.html = js_func_arg.html
+		함수.txt = 함수.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13 자바스크립트의 입출력", "13 자바스크립트의 입출력", "{3EBCB53B-D9FE-4F73-BD4F-75575A3EE827}"
+	ProjectSection(SolutionItems) = preProject
+		js_alert.html = js_alert.html
+		js_confirm.html = js_confirm.html
+		js_prompt1.html = js_prompt1.html
+		js_write.html = js_write.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09장 자바스크립트 객체", "09장 자바스크립트 객체", "{E695F359-D640-4546-94BE-64DF3B565220}"
+	ProjectSection(SolutionItems) = preProject
+		9_Question04.html = 9_Question04.html
+		9_Question05.html = 9_Question05.html
+		9_Question06.html = 9_Question06.html
+		9_Question07.html = 9_Question07.html
+		9_Question08.html = 9_Question08.html
+		9_Question09.html = 9_Question09.html
+		9_Question10.html = 9_Question10.html
+		9_Question11.html = 9_Question11.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 객체", "01 객체", "{8F95A22D-2BEF-4C95-9C9B-E01581C33DEC}"
+	ProjectSection(SolutionItems) = preProject
+		객체.txt = 객체.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 객체 생성 및 사용", "02 객체 생성 및 사용", "{7A8D6739-C6E9-4EFD-A4CB-7C4B31671563}"
+	ProjectSection(SolutionItems) = preProject
+		9_02_object_car.html = 9_02_object_car.html
+		객체 생성 및 사용.txt = 객체 생성 및 사용.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 프로토타입", "03 프로토타입", "{6229CAE9-044E-4882-9EC4-93AD953A782B}"
+	ProjectSection(SolutionItems) = preProject
+		9_03_obj_point.html = 9_03_obj_point.html
+		프로토타입.txt = 프로토타입.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 자바스크립트 내장 객체", "04 자바스크립트 내장 객체", "{AE293566-2045-403B-806C-C6DF9E9E3378}"
+	ProjectSection(SolutionItems) = preProject
+		obj_date.html = obj_date.html
+		obj_date2.html = obj_date2.html
+		obj_date3.html = obj_date3.html
+		obj_date4.html = obj_date4.html
+		obj_number.html = obj_number.html
+		obj_string.html = obj_string.html
+		str_case.html = str_case.html
+		str_concat.html = str_concat.html
+		str_index.html = str_index.html
+		str_literal.html = str_literal.html
+		str_literal1.html = str_literal1.html
+		str_match.html = str_match.html
+		str_math.html = str_math.html
+		str_replace.html = str_replace.html
+		str_split.html = str_split.html
+		str_wrapper.html = str_wrapper.html
+		자바스크립트 내장 객체.txt = 자바스크립트 내장 객체.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 Array", "05 Array", "{A99C7D7E-D6D3-48B7-BA06-B7EBEFB75CB6}"
+	ProjectSection(SolutionItems) = preProject
+		array_concat.html = array_concat.html
+		array_filter.html = array_filter.html
+		array_index.html = array_index.html
+		array_join.html = array_join.html
+		array_push.html = array_push.html
+		array_shift.html = array_shift.html
+		array_slice.html = array_slice.html
+		array_sort.html = array_sort.html
+		obj_array.html = obj_array.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 자바스크립트에서의 오류 처리", "06 자바스크립트에서의 오류 처리", "{21E636BB-95DC-4479-8123-05BBCB946147}"
+	ProjectSection(SolutionItems) = preProject
+		throw.html = throw.html
+		try_catch.html = try_catch.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10장 DOM과 이벤트 처리, 입력 검증", "10장 DOM과 이벤트 처리, 입력 검증", "{A02B3664-002C-49A9-94F8-F3D6C8209D33}"
+	ProjectSection(SolutionItems) = preProject
+		10_Question05.html = 10_Question05.html
+		10_Question06.html = 10_Question06.html
+		10_Question07.html = 10_Question07.html
+		10_Question08.html = 10_Question08.html
+		10_Question09.html = 10_Question09.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 문서 객체 모델(DOM)", "01 문서 객체 모델(DOM)", "{D89895C0-8E38-4EDA-9EFC-648DF6B1A84D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 HTML 요소 찾기", "02 HTML 요소 찾기", "{28016107-F658-48B3-AB41-4F997F2AFF0D}"
+	ProjectSection(SolutionItems) = preProject
+		get_elem.html = get_elem.html
+		get_elem1.html = get_elem1.html
+		get_elem_tag.html = get_elem_tag.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 HTML 변경하기", "03 HTML 변경하기", "{EF6A8B68-4BBB-420F-B02F-AE1A89731E1E}"
+	ProjectSection(SolutionItems) = preProject
+		dom_elem_mod.html = dom_elem_mod.html
+		dom_elem_mod1.html = dom_elem_mod1.html
+		dom_elem_mod2.html = dom_elem_mod2.html
+		dom_elem_mod3.html = dom_elem_mod3.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 DOM 노드 삭제와 추가", "04 DOM 노드 삭제와 추가", "{1982BC12-905E-47B2-85F4-FA6874A3E406}"
+	ProjectSection(SolutionItems) = preProject
+		dom_append.html = dom_append.html
+		dom_remove.html = dom_remove.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 브라우저 객체 모델", "05 브라우저 객체 모델", "{A0036584-0243-46FC-AB21-089D74A92511}"
+	ProjectSection(SolutionItems) = preProject
+		bom_location.html = bom_location.html
+		bom_move.html = bom_move.html
+		bom_nav.html = bom_nav.html
+		bom_open.html = bom_open.html
+		bom_screen.html = bom_screen.html
+		bom_setinterval.html = bom_setinterval.html
+		bom_settimeout.html = bom_settimeout.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 이벤트 처리", "06 이벤트 처리", "{187D107F-962F-4BE4-B68E-FA961BE0AD14}"
+	ProjectSection(SolutionItems) = preProject
+		evt_calculator.html = evt_calculator.html
+		evt_mousedown.html = evt_mousedown.html
+		evt_mouseover.html = evt_mouseover.html
+		evt_onchange.html = evt_onchange.html
+		evt_onclick.html = evt_onclick.html
+		evt_onload.html = evt_onload.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 폼의 유효성 검증", "07 폼의 유효성 검증", "{94A51EBD-9AA3-4C74-9650-463655D63E63}"
+	ProjectSection(SolutionItems) = preProject
+		form_reg_exp.html = form_reg_exp.html
+		form_reg_exp1.html = form_reg_exp1.html
+		form_val_empty.html = form_val_empty.html
+		form_val_length.html = form_val_length.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11장 자바스크립트와 캔버스로 게임 만들기", "11장 자바스크립트와 캔버스로 게임 만들기", "{04BE1BBE-D190-4343-A0DD-D9E3C69A6EF2}"
+	ProjectSection(SolutionItems) = preProject
+		11_Question03.html = 11_Question03.html
+		11_Question04.html = 11_Question04.html
+		11_Question05.html = 11_Question05.html
+		11_Question06.html = 11_Question06.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 캔버스 요소", "01 캔버스 요소", "{6F78C85D-73D9-4787-B518-983562018649}"
+	ProjectSection(SolutionItems) = preProject
+		canvas1.html = canvas1.html
+		canvas_arc.html = canvas_arc.html
+		canvas_curve.html = canvas_curve.html
+		canvas_line.html = canvas_line.html
+		canvas_path.html = canvas_path.html
+		canvas_rect.html = canvas_rect.html
+		canvas_rect1.html = canvas_rect1.html
+		canvas_text.html = canvas_text.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 도형의 속성", "02 도형의 속성", "{35AE0D45-D594-49E9-A084-FA89147D77E9}"
+	ProjectSection(SolutionItems) = preProject
+		canvas_gra.html = canvas_gra.html
+		canvas_gra1.html = canvas_gra1.html
+		canvas_image.html = canvas_image.html
+		canvas_line_prop.html = canvas_line_prop.html
+		canvas_pattern.html = canvas_pattern.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 도형 변환", "03 도형 변환", "{9D52C9A2-2433-4D73-BC75-1C9444FBB102}"
+	ProjectSection(SolutionItems) = preProject
+		canvas_rotate.html = canvas_rotate.html
+		canvas_scale.html = canvas_scale.html
+		canvas_trans.html = canvas_trans.html
+		canvas_transform.html = canvas_transform.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 애니메이션", "04 애니메이션", "{6EEF5570-BBA5-4ADF-A1E2-3DD83857CA9E}"
+	ProjectSection(SolutionItems) = preProject
+		canvas_ball.html = canvas_ball.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 게임제작", "05 게임제작", "{72D0EA4C-D287-4DB2-98AA-69459716F1E1}"
+	ProjectSection(SolutionItems) = preProject
+		canvas_game.html = canvas_game.html
+		lawn.png = lawn.png
+		net.png = net.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12장 jQUERY, Ajax, JSON", "12장 jQUERY, Ajax, JSON", "{6523A82E-8FC1-4138-B048-F078FAC0CF94}"
+	ProjectSection(SolutionItems) = preProject
+		12_Question01.html = 12_Question01.html
+		12_Question02.html = 12_Question02.html
+		12_Question03.html = 12_Question03.html
+		12_Question04.html = 12_Question04.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 jQuery", "01 jQuery", "{96910609-03B8-4853-BEBE-F59F13C23695}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 첫 번째 jQuery 프로그램", "02 첫 번째 jQuery 프로그램", "{78756E77-844A-44DC-A854-E8B2EF1E6319}"
+	ProjectSection(SolutionItems) = preProject
+		jq1.html = jq1.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 jQuery 문장의 구조", "03 jQuery 문장의 구조", "{51951D7D-E214-4139-96C6-E074B6FA930E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 jQuery를 이용한 이벤트 처리", "04 jQuery를 이용한 이벤트 처리", "{E61BAF04-DA73-4CD0-85E8-4F3804DB4040}"
+	ProjectSection(SolutionItems) = preProject
+		event_info.html = event_info.html
+		focus_event.html = focus_event.html
+		mouse_event.html = mouse_event.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 jQuery를 이용한 애니메이션 효과", "05 jQuery를 이용한 애니메이션 효과", "{C7F696AA-5E6F-42D7-8F23-858D3F25232B}"
+	ProjectSection(SolutionItems) = preProject
+		jq_animate.html = jq_animate.html
+		jq_animate_stop.html = jq_animate_stop.html
+		jq_chaining.html = jq_chaining.html
+		jq_fadein.html = jq_fadein.html
+		jq_show.html = jq_show.html
+		jq_slide.html = jq_slide.html
+		jq_toggle.html = jq_toggle.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 jQuery를 이용한 DOM 변경", "06 jQuery를 이용한 DOM 변경", "{63B18A0E-7702-4A9F-A108-4DC249EC4545}"
+	ProjectSection(SolutionItems) = preProject
+		jq_after.html = jq_after.html
+		jq_append.html = jq_append.html
+		jq_attr.html = jq_attr.html
+		jq_dom1.html = jq_dom1.html
+		jq_dom2.html = jq_dom2.html
+		jq_remove.html = jq_remove.html
+		jq_val.html = jq_val.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 jQuery를 이용한 CSS 조작", "07 jQuery를 이용한 CSS 조작", "{C4AEE2BA-FEF4-4DEE-84C0-A7465872E96F}"
+	ProjectSection(SolutionItems) = preProject
+		jq_addclass.html = jq_addclass.html
+		jq_css.html = jq_css.html
+		jq_width.html = jq_width.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08 Ajax 개요", "08 Ajax 개요", "{5B721D85-CC59-4BE9-A873-A24F0AA2264B}"
+	ProjectSection(SolutionItems) = preProject
+		ajax.html = ajax.html
+		testfile1.txt = testfile1.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09 jQuery를 이용하여 Ajax 사용하기", "09 jQuery를 이용하여 Ajax 사용하기", "{DF7B1064-CF0A-4394-973B-2B0A14DD77A0}"
+	ProjectSection(SolutionItems) = preProject
+		jq_ajax.html = jq_ajax.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 JSON", "10 JSON", "{26EB8D42-3D5A-46E9-A9C0-0D7B7826406A}"
+	ProjectSection(SolutionItems) = preProject
+		json.html = json.html
+		json_eval.html = json_eval.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13장 HTML5 위치 정보와 드래그와 드롭", "13장 HTML5 위치 정보와 드래그와 드롭", "{AF15FB3F-BD83-419C-9FC2-DF7E23C2F1B9}"
+	ProjectSection(SolutionItems) = preProject
+		13_Question08.html = 13_Question08.html
+		13_Question09.html = 13_Question09.html
+		13_Question09.js = 13_Question09.js
+		13_Question10.html = 13_Question10.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 SVG", "01 SVG", "{36EC4681-7E6F-4C18-B561-68E327CA2BE8}"
+	ProjectSection(SolutionItems) = preProject
+		svg1.html = svg1.html
+		svg_anim.html = svg_anim.html
+		svg_anim1.html = svg_anim1.html
+		svg_circle.html = svg_circle.html
+		svg_line.html = svg_line.html
+		svg_polygon.html = svg_polygon.html
+		svg_polyline.html = svg_polyline.html
+		svg_rect.html = svg_rect.html
+		svg_text.html = svg_text.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 드래그와 드롭", "02 드래그와 드롭", "{69A1EF5D-B249-4657-96A9-6FA24FF42507}"
+	ProjectSection(SolutionItems) = preProject
+		dragdrop.html = dragdrop.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 HTML5 위치 정보", "03 HTML5 위치 정보", "{2643241A-1FA0-4E35-B62E-F9DEDA94C387}"
+	ProjectSection(SolutionItems) = preProject
+		geoloc.html = geoloc.html
+		geoloc1.html = geoloc1.html
+		geoloc2.html = geoloc2.html
+		geoloc_error.html = geoloc_error.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 HTML5 웹 워커", "04 HTML5 웹 워커", "{C093C90D-A347-49BC-B5A6-A2CC3BF386D9}"
+	ProjectSection(SolutionItems) = preProject
+		webworker.html = webworker.html
+		worker.js = worker.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14장  HTML5 웹 스토리지, 파일 API, 웹 소켓", "14장  HTML5 웹 스토리지, 파일 API, 웹 소켓", "{DEB266C4-DAB3-4382-B804-7F4546284825}"
+	ProjectSection(SolutionItems) = preProject
+		14_Question06.html = 14_Question06.html
+		14_Question07.html = 14_Question07.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 HTML5 웹 스토리지", "01 HTML5 웹 스토리지", "{9031CACB-2AB9-4050-B675-29030BDA25BD}"
+	ProjectSection(SolutionItems) = preProject
+		local_sto.html = local_sto.html
+		local_sto1.html = local_sto1.html
+		session_sto.html = session_sto.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 파일 API", "02 파일 API", "{1E222E75-0BEA-4F56-AC49-524D77C97246}"
+	ProjectSection(SolutionItems) = preProject
+		file_api.html = file_api.html
+		file_api1.html = file_api1.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 애플리케이션 캐시", "03 애플리케이션 캐시", "{54551A07-1E22-4E7C-84CA-0918CD535D84}"
+	ProjectSection(SolutionItems) = preProject
+		clock.appcache = clock.appcache
+		clock.css = clock.css
+		clock.html = clock.html
+		clock.js = clock.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 웹 소켓", "04 웹 소켓", "{962A72FF-AA7A-492D-83A5-02E33E7F81EE}"
+	ProjectSection(SolutionItems) = preProject
+		websocket.html = websocket.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 서버 전송 이벤트", "05 서버 전송 이벤트", "{730C6089-4E5C-41CF-BF2A-B1220BC435E6}"
+	ProjectSection(SolutionItems) = preProject
+		server_event.html = server_event.html
+		test.jsp = test.jsp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15장 JSP", "15장 JSP", "{810B7CA6-3DDE-46C5-AD86-3E002BEEDA71}"
+	ProjectSection(SolutionItems) = preProject
+		15_Question01.jsp = 15_Question01.jsp
+		15_Question02.jsp = 15_Question02.jsp
+		15_Question03.jsp = 15_Question03.jsp
+		15_Question04.jsp = 15_Question04.jsp
+		15_Question05.jsp = 15_Question05.jsp
+		15_Question06_main.html = 15_Question06_main.html
+		15_Question06_result.jsp = 15_Question06_result.jsp
+		15_Question07_main.html = 15_Question07_main.html
+		15_Question07_result.jsp = 15_Question07_result.jsp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 JSP의 개요", "01 JSP의 개요", "{022D9E55-1184-4833-8B13-061ABF258D65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 톰캣 설치", "02 톰캣 설치", "{79A89D78-AFFA-4A4E-BD3F-7CB0B373D64B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 첫 번째 JSP 프로그램", "03 첫 번째 JSP 프로그램", "{9ADBC762-8DFA-4C7F-9755-C40FBC0B3084}"
+	ProjectSection(SolutionItems) = preProject
+		hello.jsp = hello.jsp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 기본적인 JSP", "04 기본적인 JSP", "{0CAA2448-5038-407F-AF0B-E8479BE18A3A}"
+	ProjectSection(SolutionItems) = preProject
+		hello.jsp = hello.jsp
+		jsp_comment.jsp = jsp_comment.jsp
+		jsp_decla.jsp = jsp_decla.jsp
+		jsp_direct.jsp = jsp_direct.jsp
+		jsp_direct1.jsp = jsp_direct1.jsp
+		scriptlet.jsp = scriptlet.jsp
+		scriptlet1.jsp = scriptlet1.jsp
+		scriptlet3.jsp = scriptlet3.jsp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 JSP 제어문", "05 JSP 제어문", "{58CA6FF0-66CE-4801-85DE-B96D1384571F}"
+	ProjectSection(SolutionItems) = preProject
+		jsp_for.jsp = jsp_for.jsp
+		jsp_if.jsp = jsp_if.jsp
+		jsp_switch.jsp = jsp_switch.jsp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 JSP 예제", "06 JSP 예제", "{D1612C63-CD0D-416C-A46C-A721BDBEBA96}"
+	ProjectSection(SolutionItems) = preProject
+		fortune.jsp = fortune.jsp
+		jsp_array.jsp = jsp_array.jsp
+		jsp_array1.jsp = jsp_array1.jsp
+		jsp_form.jsp = jsp_form.jsp
+		jsp_sine.jsp = jsp_sine.jsp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 데이터베이스", "07 데이터베이스", "{8D56EC95-4D49-4E66-A549-B03A95C9DD0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08 데이터베이스 예제 온라인 서점", "08 데이터베이스 예제 온라인 서점", "{059A9D31-447D-46C2-AE80-4A6F126101A1}"
+	ProjectSection(SolutionItems) = preProject
+		order.jsp = order.jsp
+		order_proc.jsp = order_proc.jsp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09 게시판 작성", "09 게시판 작성", "{29498A76-B3EC-49E9-8173-E753B4C2EF55}"
+	ProjectSection(SolutionItems) = preProject
+		display.jsp = display.jsp
+		insert.jsp = insert.jsp
+		list.jsp = list.jsp
+		write.jsp = write.jsp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 Ajax, jQuery와 JSP", "10 Ajax, jQuery와 JSP", "{E7ECE5E0-A29C-4176-8C92-D3734522081A}"
+	ProjectSection(SolutionItems) = preProject
+		ajax_jsp.html = ajax_jsp.html
+		ajaxs.jsp = ajaxs.jsp
+		jquery_jsp.html = jquery_jsp.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16장 모바일 웹 페이지", "16장 모바일 웹 페이지", "{1D908A02-95AE-452A-AD38-8EB1811B5761}"
+	ProjectSection(SolutionItems) = preProject
+		16_Question01.html = 16_Question01.html
+		16_Question02.html = 16_Question02.html
+		16_Question03.html = 16_Question03.html
+		16_Question04.html = 16_Question04.html
+		16_Question05.html = 16_Question05.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 모바일 웹", "01 모바일 웹", "{61A5D893-812F-429B-AB59-5002CCEC604C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 반응형 웹 디자인", "02 반응형 웹 디자인", "{79B204BE-6834-43B4-A8AC-DAF9EBDFB8CA}"
+	ProjectSection(SolutionItems) = preProject
+		resposive.html = resposive.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 jQuery Mobile", "03 jQuery Mobile", "{25381448-55D9-4BF6-AEAC-A003A95355A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 jQuery Mobile 실습", "04 jQuery Mobile 실습", "{E9C8D986-D230-4FC2-B858-2A04283D6910}"
+	ProjectSection(SolutionItems) = preProject
+		jqm.html = jqm.html
+		jqm_button.html = jqm_button.html
+		jqm_button1.html = jqm_button1.html
+		jqm_list.html = jqm_list.html
+		jqm_slider.html = jqm_slider.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 모바일 앱 예제", "05 모바일 앱 예제", "{907F0BE1-894B-413E-8FAB-B6E768AA8AFB}"
+	ProjectSection(SolutionItems) = preProject
+		choose_restaurant.html = choose_restaurant.html
+		choose_town.html = choose_town.html
+		index.html = index.html
+		restaurant.html = restaurant.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80B047D4-F902-4A27-BE53-CE809388935D} = {4B4E4D62-E7DD-4913-9175-C525A7D8193B}
+		{0312D556-A7A9-4779-B384-E00E10B91ACB} = {80B047D4-F902-4A27-BE53-CE809388935D}
+		{81D63D2F-5A46-4F34-9D35-9991ADCD3665} = {80B047D4-F902-4A27-BE53-CE809388935D}
+		{E9ADABAA-AFD2-4A31-915C-7973753EBB9F} = {80B047D4-F902-4A27-BE53-CE809388935D}
+		{4C57D363-C5D2-4407-A71B-8654F2A01ED4} = {80B047D4-F902-4A27-BE53-CE809388935D}
+		{DC3EF77F-3394-4CA1-A78D-48E8C7C41695} = {80B047D4-F902-4A27-BE53-CE809388935D}
+		{AA4F4482-EA29-4E92-83C6-FDBA5ED37CD9} = {4B4E4D62-E7DD-4913-9175-C525A7D8193B}
+		{C6307A12-7269-4D3D-B569-936C2A93EBF5} = {AA4F4482-EA29-4E92-83C6-FDBA5ED37CD9}
+		{69541AD9-D884-40CE-9153-F7266072DE0F} = {AA4F4482-EA29-4E92-83C6-FDBA5ED37CD9}
+		{0F53D31E-6378-4971-AA82-754EC26568C1} = {AA4F4482-EA29-4E92-83C6-FDBA5ED37CD9}
+		{E2DC8AE7-352C-4258-B485-C29C37DB1E52} = {AA4F4482-EA29-4E92-83C6-FDBA5ED37CD9}
+		{E8DA3FDC-16F1-455A-842D-E4DDA1676EB8} = {AA4F4482-EA29-4E92-83C6-FDBA5ED37CD9}
+		{E1D9AC9A-BCA2-4698-A386-6DC54FE1E483} = {AA4F4482-EA29-4E92-83C6-FDBA5ED37CD9}
+		{9D6F43C2-17DE-430A-80AF-4302DE0705EB} = {AA4F4482-EA29-4E92-83C6-FDBA5ED37CD9}
+		{A8331A41-F983-4517-86E2-3C209CF6DF5C} = {AA4F4482-EA29-4E92-83C6-FDBA5ED37CD9}
+		{9CEF56F3-F995-4B60-B4D0-4B1E7F7C50EE} = {4B4E4D62-E7DD-4913-9175-C525A7D8193B}
+		{8D70081D-1F8A-47A7-B208-31E15CF1ED60} = {9CEF56F3-F995-4B60-B4D0-4B1E7F7C50EE}
+		{698EB732-C7A0-4265-9353-4089043796DD} = {9CEF56F3-F995-4B60-B4D0-4B1E7F7C50EE}
+		{17624F81-87C5-4E27-9D5B-4BEA88319868} = {9CEF56F3-F995-4B60-B4D0-4B1E7F7C50EE}
+		{A2019F8A-862C-4D45-B368-FF600ED1B76A} = {9CEF56F3-F995-4B60-B4D0-4B1E7F7C50EE}
+		{156F8C6C-66A4-4915-B05F-9FFD7396686D} = {9CEF56F3-F995-4B60-B4D0-4B1E7F7C50EE}
+		{E92946B6-9B86-4096-8F07-BD2BE45FF477} = {9CEF56F3-F995-4B60-B4D0-4B1E7F7C50EE}
+		{26A3CB69-6492-4AAB-9344-8F01B538C4BF} = {4B4E4D62-E7DD-4913-9175-C525A7D8193B}
+		{D5742A21-C9B9-403B-B764-01C2EEC523BE} = {26A3CB69-6492-4AAB-9344-8F01B538C4BF}
+		{BFFE9D40-7FC8-41FE-8405-9F502DD42CA8} = {26A3CB69-6492-4AAB-9344-8F01B538C4BF}
+		{676177C2-A68D-4091-BA80-6DB38091EC62} = {26A3CB69-6492-4AAB-9344-8F01B538C4BF}
+		{ACE4DAA6-D350-4729-88BC-6A2939BB44C1} = {26A3CB69-6492-4AAB-9344-8F01B538C4BF}
+		{15F5EFB4-686E-4EE8-824C-C041383996F5} = {26A3CB69-6492-4AAB-9344-8F01B538C4BF}
+		{C3F09E04-EC79-4AF4-851B-D1E675847A8A} = {26A3CB69-6492-4AAB-9344-8F01B538C4BF}
+		{C2C452D3-E3E4-4A6E-98F8-C43A020618E7} = {26A3CB69-6492-4AAB-9344-8F01B538C4BF}
+		{649F56EE-2E3B-4695-905E-E065B2702A1C} = {4B4E4D62-E7DD-4913-9175-C525A7D8193B}
+		{12B7E3D0-0B4F-4285-81E2-03C1DCE2A4D8} = {649F56EE-2E3B-4695-905E-E065B2702A1C}
+		{5B24C04D-E562-4F6C-8EF7-5BCC7E30FCF1} = {649F56EE-2E3B-4695-905E-E065B2702A1C}
+		{E15B887F-6DDD-42E0-98AB-ED51E53D4E8B} = {649F56EE-2E3B-4695-905E-E065B2702A1C}
+		{DB98E69B-5FB0-4B57-9F1E-732D9763C830} = {649F56EE-2E3B-4695-905E-E065B2702A1C}
+		{FB312B33-B76F-464B-86E9-D9C7235B2455} = {649F56EE-2E3B-4695-905E-E065B2702A1C}
+		{3E5BCE62-3E7A-40D8-BA92-FD3DFAED7E57} = {649F56EE-2E3B-4695-905E-E065B2702A1C}
+		{F1191CA8-5095-426E-A612-FBAB28C4103D} = {649F56EE-2E3B-4695-905E-E065B2702A1C}
+		{32990BD7-0BBB-41E0-ACF1-9CA727078189} = {649F56EE-2E3B-4695-905E-E065B2702A1C}
+		{890B4043-12B2-4F62-B73B-EC66D1D7A4F0} = {4B4E4D62-E7DD-4913-9175-C525A7D8193B}
+		{C00BB5F4-1CCC-4E93-921F-14117D7146E9} = {890B4043-12B2-4F62-B73B-EC66D1D7A4F0}
+		{87B23E24-467C-4CAC-A400-6F9C862C86AD} = {890B4043-12B2-4F62-B73B-EC66D1D7A4F0}
+		{AC4FB8E3-33F7-4CC8-8D37-ADCD0D1C9FDE} = {890B4043-12B2-4F62-B73B-EC66D1D7A4F0}
+		{4AB960D2-6079-4767-83FC-1AEA032E574C} = {890B4043-12B2-4F62-B73B-EC66D1D7A4F0}
+		{193F769F-C50B-412D-B6A3-56F0680BA625} = {4B4E4D62-E7DD-4913-9175-C525A7D8193B}
+		{37C989BF-8593-4988-8FCD-629AF249978B} = {193F769F-C50B-412D-B6A3-56F0680BA625}
+		{FAD5B472-332C-4174-A0BC-7D1834F5263A} = {193F769F-C50B-412D-B6A3-56F0680BA625}
+		{60B2ADE1-D98D-4F8D-A420-56AE100776F6} = {193F769F-C50B-412D-B6A3-56F0680BA625}
+		{7AF2B297-DDAC-4F6C-A2CE-D4529A8F432D} = {193F769F-C50B-412D-B6A3-56F0680BA625}
+		{B3E71785-2BE4-43CC-92A5-F5B28A4FA680} = {193F769F-C50B-412D-B6A3-56F0680BA625}
+		{2729279A-EC18-4E3E-A93B-CBE14ABFB173} = {193F769F-C50B-412D-B6A3-56F0680BA625}
+		{302AB712-D93D-471B-85BA-826771293451} = {193F769F-C50B-412D-B6A3-56F0680BA625}
+		{90D6906A-7D52-4C6B-A16B-F1F7485E5A41} = {193F769F-C50B-412D-B6A3-56F0680BA625}
+		{1CCE700B-3FE8-4A06-884A-4552DFEB3CDF} = {193F769F-C50B-412D-B6A3-56F0680BA625}
+		{6247A7B9-2208-4631-9628-864439059778} = {193F769F-C50B-412D-B6A3-56F0680BA625}
+		{60667ED4-2514-4AAA-AFEE-5C716394AD8B} = {193F769F-C50B-412D-B6A3-56F0680BA625}
+		{AEE3E9C1-044D-4CBD-98D0-E8A9BBFE07FE} = {193F769F-C50B-412D-B6A3-56F0680BA625}
+		{3EBCB53B-D9FE-4F73-BD4F-75575A3EE827} = {193F769F-C50B-412D-B6A3-56F0680BA625}
+		{E695F359-D640-4546-94BE-64DF3B565220} = {4B4E4D62-E7DD-4913-9175-C525A7D8193B}
+		{8F95A22D-2BEF-4C95-9C9B-E01581C33DEC} = {E695F359-D640-4546-94BE-64DF3B565220}
+		{7A8D6739-C6E9-4EFD-A4CB-7C4B31671563} = {E695F359-D640-4546-94BE-64DF3B565220}
+		{6229CAE9-044E-4882-9EC4-93AD953A782B} = {E695F359-D640-4546-94BE-64DF3B565220}
+		{AE293566-2045-403B-806C-C6DF9E9E3378} = {E695F359-D640-4546-94BE-64DF3B565220}
+		{A99C7D7E-D6D3-48B7-BA06-B7EBEFB75CB6} = {E695F359-D640-4546-94BE-64DF3B565220}
+		{21E636BB-95DC-4479-8123-05BBCB946147} = {E695F359-D640-4546-94BE-64DF3B565220}
+		{A02B3664-002C-49A9-94F8-F3D6C8209D33} = {4B4E4D62-E7DD-4913-9175-C525A7D8193B}
+		{D89895C0-8E38-4EDA-9EFC-648DF6B1A84D} = {A02B3664-002C-49A9-94F8-F3D6C8209D33}
+		{28016107-F658-48B3-AB41-4F997F2AFF0D} = {A02B3664-002C-49A9-94F8-F3D6C8209D33}
+		{EF6A8B68-4BBB-420F-B02F-AE1A89731E1E} = {A02B3664-002C-49A9-94F8-F3D6C8209D33}
+		{1982BC12-905E-47B2-85F4-FA6874A3E406} = {A02B3664-002C-49A9-94F8-F3D6C8209D33}
+		{A0036584-0243-46FC-AB21-089D74A92511} = {A02B3664-002C-49A9-94F8-F3D6C8209D33}
+		{187D107F-962F-4BE4-B68E-FA961BE0AD14} = {A02B3664-002C-49A9-94F8-F3D6C8209D33}
+		{94A51EBD-9AA3-4C74-9650-463655D63E63} = {A02B3664-002C-49A9-94F8-F3D6C8209D33}
+		{04BE1BBE-D190-4343-A0DD-D9E3C69A6EF2} = {4B4E4D62-E7DD-4913-9175-C525A7D8193B}
+		{6F78C85D-73D9-4787-B518-983562018649} = {04BE1BBE-D190-4343-A0DD-D9E3C69A6EF2}
+		{35AE0D45-D594-49E9-A084-FA89147D77E9} = {04BE1BBE-D190-4343-A0DD-D9E3C69A6EF2}
+		{9D52C9A2-2433-4D73-BC75-1C9444FBB102} = {04BE1BBE-D190-4343-A0DD-D9E3C69A6EF2}
+		{6EEF5570-BBA5-4ADF-A1E2-3DD83857CA9E} = {04BE1BBE-D190-4343-A0DD-D9E3C69A6EF2}
+		{72D0EA4C-D287-4DB2-98AA-69459716F1E1} = {04BE1BBE-D190-4343-A0DD-D9E3C69A6EF2}
+		{6523A82E-8FC1-4138-B048-F078FAC0CF94} = {4B4E4D62-E7DD-4913-9175-C525A7D8193B}
+		{96910609-03B8-4853-BEBE-F59F13C23695} = {6523A82E-8FC1-4138-B048-F078FAC0CF94}
+		{78756E77-844A-44DC-A854-E8B2EF1E6319} = {6523A82E-8FC1-4138-B048-F078FAC0CF94}
+		{51951D7D-E214-4139-96C6-E074B6FA930E} = {6523A82E-8FC1-4138-B048-F078FAC0CF94}
+		{E61BAF04-DA73-4CD0-85E8-4F3804DB4040} = {6523A82E-8FC1-4138-B048-F078FAC0CF94}
+		{C7F696AA-5E6F-42D7-8F23-858D3F25232B} = {6523A82E-8FC1-4138-B048-F078FAC0CF94}
+		{63B18A0E-7702-4A9F-A108-4DC249EC4545} = {6523A82E-8FC1-4138-B048-F078FAC0CF94}
+		{C4AEE2BA-FEF4-4DEE-84C0-A7465872E96F} = {6523A82E-8FC1-4138-B048-F078FAC0CF94}
+		{5B721D85-CC59-4BE9-A873-A24F0AA2264B} = {6523A82E-8FC1-4138-B048-F078FAC0CF94}
+		{DF7B1064-CF0A-4394-973B-2B0A14DD77A0} = {6523A82E-8FC1-4138-B048-F078FAC0CF94}
+		{26EB8D42-3D5A-46E9-A9C0-0D7B7826406A} = {6523A82E-8FC1-4138-B048-F078FAC0CF94}
+		{AF15FB3F-BD83-419C-9FC2-DF7E23C2F1B9} = {4B4E4D62-E7DD-4913-9175-C525A7D8193B}
+		{36EC4681-7E6F-4C18-B561-68E327CA2BE8} = {AF15FB3F-BD83-419C-9FC2-DF7E23C2F1B9}
+		{69A1EF5D-B249-4657-96A9-6FA24FF42507} = {AF15FB3F-BD83-419C-9FC2-DF7E23C2F1B9}
+		{2643241A-1FA0-4E35-B62E-F9DEDA94C387} = {AF15FB3F-BD83-419C-9FC2-DF7E23C2F1B9}
+		{C093C90D-A347-49BC-B5A6-A2CC3BF386D9} = {AF15FB3F-BD83-419C-9FC2-DF7E23C2F1B9}
+		{DEB266C4-DAB3-4382-B804-7F4546284825} = {4B4E4D62-E7DD-4913-9175-C525A7D8193B}
+		{9031CACB-2AB9-4050-B675-29030BDA25BD} = {DEB266C4-DAB3-4382-B804-7F4546284825}
+		{1E222E75-0BEA-4F56-AC49-524D77C97246} = {DEB266C4-DAB3-4382-B804-7F4546284825}
+		{54551A07-1E22-4E7C-84CA-0918CD535D84} = {DEB266C4-DAB3-4382-B804-7F4546284825}
+		{962A72FF-AA7A-492D-83A5-02E33E7F81EE} = {DEB266C4-DAB3-4382-B804-7F4546284825}
+		{730C6089-4E5C-41CF-BF2A-B1220BC435E6} = {DEB266C4-DAB3-4382-B804-7F4546284825}
+		{810B7CA6-3DDE-46C5-AD86-3E002BEEDA71} = {4B4E4D62-E7DD-4913-9175-C525A7D8193B}
+		{022D9E55-1184-4833-8B13-061ABF258D65} = {810B7CA6-3DDE-46C5-AD86-3E002BEEDA71}
+		{79A89D78-AFFA-4A4E-BD3F-7CB0B373D64B} = {810B7CA6-3DDE-46C5-AD86-3E002BEEDA71}
+		{9ADBC762-8DFA-4C7F-9755-C40FBC0B3084} = {810B7CA6-3DDE-46C5-AD86-3E002BEEDA71}
+		{0CAA2448-5038-407F-AF0B-E8479BE18A3A} = {810B7CA6-3DDE-46C5-AD86-3E002BEEDA71}
+		{58CA6FF0-66CE-4801-85DE-B96D1384571F} = {810B7CA6-3DDE-46C5-AD86-3E002BEEDA71}
+		{D1612C63-CD0D-416C-A46C-A721BDBEBA96} = {810B7CA6-3DDE-46C5-AD86-3E002BEEDA71}
+		{8D56EC95-4D49-4E66-A549-B03A95C9DD0F} = {810B7CA6-3DDE-46C5-AD86-3E002BEEDA71}
+		{059A9D31-447D-46C2-AE80-4A6F126101A1} = {810B7CA6-3DDE-46C5-AD86-3E002BEEDA71}
+		{29498A76-B3EC-49E9-8173-E753B4C2EF55} = {810B7CA6-3DDE-46C5-AD86-3E002BEEDA71}
+		{E7ECE5E0-A29C-4176-8C92-D3734522081A} = {810B7CA6-3DDE-46C5-AD86-3E002BEEDA71}
+		{1D908A02-95AE-452A-AD38-8EB1811B5761} = {4B4E4D62-E7DD-4913-9175-C525A7D8193B}
+		{61A5D893-812F-429B-AB59-5002CCEC604C} = {1D908A02-95AE-452A-AD38-8EB1811B5761}
+		{79B204BE-6834-43B4-A8AC-DAF9EBDFB8CA} = {1D908A02-95AE-452A-AD38-8EB1811B5761}
+		{25381448-55D9-4BF6-AEAC-A003A95355A5} = {1D908A02-95AE-452A-AD38-8EB1811B5761}
+		{E9C8D986-D230-4FC2-B858-2A04283D6910} = {1D908A02-95AE-452A-AD38-8EB1811B5761}
+		{907F0BE1-894B-413E-8FAB-B6E768AA8AFB} = {1D908A02-95AE-452A-AD38-8EB1811B5761}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {228D999C-283D-48F0-A3C2-2BDACFE14A6E}
+	EndGlobalSection
+EndGlobal

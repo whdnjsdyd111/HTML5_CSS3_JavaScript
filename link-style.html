@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        a:link { color: red; }
+        a:visited { color: green; }
+        a:hover { color: blue; }
+        a:active { color: yellow; }
+    </style>
+</head>
+<body>  링크 스타일
+    링크의 색상, 링크의 폰트, 배경 등도 물론 CSS로 설정할 수 있다. 추가로 링크는 어떠 상태냐에 따라서 스타일을 다르게 할 수 있다.
+    링크의 4가지 스타일은 다음과 같다.
+
+        - a:link : 방문되지 않은 링크의 스타일
+        - a:visited : 방문된 링크의 스타일
+        - a:hover : 마우스가 위에 있을 때의 스타일
+        - a:active : 마우스로 클릭되는 때의 스타일
+
+    링크의 스타일을 설정할 때는 반드시 지켜야 할 규칙이 있다.
+    a:hover는 a:link와 a:visited 다음에 위치해야 한다.
+    a:active는 a:hover 다음에 위치해야 한다.
+
+    <p><a href="" target="_blank">여기가 링크입니다.</a></p>
+</body>
+</html>

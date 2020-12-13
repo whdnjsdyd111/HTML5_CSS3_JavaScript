@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #header {   /* div 요소이므로 블록 요소이기 때문에 한 줄 전체를 차지하면서 크기에 따라 배치된다. */
+            background-color: yellow;
+            width: 100%;
+            height: 50px;
+        }
+
+        #nav {  /* 블록 요소이지만 float 속성이 left로 되어 있기 때문에 한 줄에서 왼편에 크기만큼 배치된다. */
+            background-color: red;
+            width: 30%;
+            height: 100px;
+            float: left;
+        }
+
+        #content {  /* 블록 요소이지만 float 속성이 right로 되어 있기 때문에 같은 줄에서 오른편에 크기만큼 배치된다. */
+            background-color: blue;
+            width: 70%;
+            height: 100px;
+            float: right;
+        }
+
+        #footer {   /* clear 속성이 both로 되어 있기 때문에 한 줄 전체를 차지한다. */
+            background-color: aqua;
+            width: 100%;
+            height: 50px;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header"> header </div>
+        <div id="nav"> nav </div>
+        <div id="content"> content </div>
+        <div id="footer"> footer </div>
+    </div>
+</body>
+</html>

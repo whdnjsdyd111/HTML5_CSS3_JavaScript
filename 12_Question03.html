@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+    <style>
+        div {
+            background-color: gray;
+            width: 200px;
+            height: 200px;
+            position: relative;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function () {
+            $("#right").click(function () {
+                $("#div").animate({
+                    left: '100px'
+                });
+            });
+
+            $("#left").click(function () {
+                $("#div").animate({
+                    left: '0px'
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <button id="left"><<</button>
+    <button id="right">>></button>
+    <div id="div"></div>
+</body>
+</html>

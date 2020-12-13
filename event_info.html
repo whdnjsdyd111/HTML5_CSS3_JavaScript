@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        div {
+            padding: 20px;
+        }
+
+        body {
+            background-color: #eef;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+</head>
+<body>
+    <div id="log"></div>
+    <script>
+        $(document).mousemove(function (e) {
+            $('#log').text("e.pageX: " + e.pageX + ", e.pageY: " + e.pageY);
+        });
+    </script>
+</body>
+</html>

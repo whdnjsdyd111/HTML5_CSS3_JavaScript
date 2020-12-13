@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        body em { color: red; }
+        body > h1 { color: blue; }
+    </style>
+</head>
+<body>
+    자손, 자식, 형제 결합자
+    이들은 모두 선택자를 결합해서 특정한 요소를 선택한다. 특정한 요소의 후손을 선택할 수도 있고 자식 요소만을 선택할 수도 있다.
+
+    선택자         설명
+
+    s1 s2       s1 요소에 포함된 s2 요소를 선택한다. (후손 관계)
+    s1 > s2     s1 요소에 직계 자식 요소인 s2를 선택한다. (자식 관계)
+
+    후손과 자식이 혼동될 수도 있다. HTML에서는 모든 요소를 가계도 형태로 그릴 수 있다.
+    후손이란 손자, 손녀도 포함되는 관계이고 자식이란 아들, 딸만 포함된다고 생각하면 된다.
+
+            body
+    ┌─────────┴─────────┐
+    p                   ul
+    │           ┌───────┼───────┐
+    em          li      li      li
+                                │
+                                em
+
+    위와 같이 body 요소의 후손은 em 요소이고 자식은 ul 요소이다.
+
+    - 다음의 선택자는 body 요소 안 em 요소를 선택한다.
+
+    body em { color:red; }      // body 안 em 요소
+
+    - 다음의 선택자는 body 요소 안 h1 요소를 선택한다.
+
+    body > h1 { color:blue; }   // body 안 h1 요소
+
+    <h1>This headline is <em>very</em> important</h1>
+</body>
+</html>

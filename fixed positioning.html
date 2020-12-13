@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        p {
+            background-color: lightgreen;
+            width: 200px;
+            height: 50px;
+        }
+
+        #two {
+            background-color: yellow;
+            position: fixed;
+            top: 0px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    고정 위치 설정
+    고정 위치(fixed positioning)란 브라우저 윈도우에 상대적으로 요소의 위치를 잡는 것이다.
+    만약 윈도우가 스크롤된다고 하여도 화면에서 요소는 움직이지 않는다.
+    혹시 인터넷 서핑 중에 페이지를 스크롤하여도 계속해서 같은 위치에 표시되면서 귀찮게 하는 쪽지를 본 적이 있다면
+    우리는 이미 고정 위치 설정을 경험한 것이다.
+
+    <p>block #1</p>
+
+    <p id="two">
+        block #2<br />
+        position: fixed;<br />
+        top:0px; right:10px;
+    </p>
+
+    <p>block #3</p>
+    <p>block #4</p>
+    <p>block #5</p>
+    <p>block #6</p>
+    <p>block #7</p>
+    <p>block #8</p>
+    <p>block #9</p>
+    <p>block #10</p>
+    <p>block #11</p>
+
+    실행 결과에서 보면 #2는 스크롤하고는 상관없이 항상 고정된 위치에 표시되는 것을 알 수 있다.
+    고정 위치 요소는 다른 요소와 중첩될 수 있다. 다른 요소는 고정 위치 요소가 없는 것처럼 배치된다.
+    절대 위치와 고정 위치는 어떤 점이 다른가? 절대 위치는 컨테이너에서 고정된 위치에 배치된다. 하지만
+    고정 위치는 현재 윈도우에서 고정된 위치에 배치된다. 박스를 여러 개 생성해서 스크롤을 시켜보면 차이를 알 수 있다.
+
+</body>
+</html>

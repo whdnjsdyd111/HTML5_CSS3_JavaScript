@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        div {
+            border: 30px solid transparent;
+            width: 300px;
+            height: 50px;                                   /* 현재 사파이, 오페라와 크롬이 서로 다른 속성을 사용하고 있다. */
+            -webkit-border-image: url(사진.png) 30 30 round;  /* Safari 5+ */
+            -o-border-image: url(사진.png) 30 30 round;   /* Opera */
+            border-image: url(사진.png) 30 30 round;      /* Chrome */
+        }
+    </style>
+</head>
+<body>
+    경계 이미지
+    border-image 속성을 사용하면 이미지로 경계선을 만들 수 있다. 경계선을 만드는 이미지는 9 구역으로 나누어져서 다음과 같이 사용된다.
+    따라서 이미지를 제작할 때부터 신경을 써야 한다.
+
+    ┌───┬───┬───┐
+    │ 1 │ 2 │ 3 │
+    │───┼───┼───┤
+    │ 4 │ 5 │ 6 │
+    ├───┼───┼───┤
+    │ 7 │ 8 │ 9 │
+    └───┴───┴───┘
+
+    <div>경계 이미지가 반복되면서 그려진다.</div>
+
+    인터넷 익스플로러는 아직까지 이 기능을 지원하지 않는다.
+
+</body>
+</html>

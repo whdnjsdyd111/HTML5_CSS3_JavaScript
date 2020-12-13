@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function checkSelect(elem, msg) {
+            if (elem.value == 0) {
+                alert(msg);
+                elem.focus();
+                return false;
+            } else {
+                return true;
+            }
+        }
+    </script>
+</head>
+<body>
+    과일 선택 
+    <select id="fruits" class="required">
+        <option value="0">선택하세요</option>
+        <option value="1">사과</option>
+        <option value="2">배</option>
+        <option value="3">바나나</option>
+    </select>
+
+    <input type="button" onclick="checkSelect(document.getElementById('fruits'), '과일을 선택하세요.')" value="확인"/>
+</body>
+</html>

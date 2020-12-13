@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+    <title>Page Title</title>
+
+    <script>
+        $(document).ready(function () {
+            $("#vbutton").click(function () {
+                alert("버튼이 클릭되었습니다.");
+            });
+        });
+    </script>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>header</h1>
+        </div>
+        <div data-role="content">
+            <div id="vbutton" data-role="button">눌러보세요</div>
+        </div>
+        <div data-role="footer">
+            <h4>footer</h4>
+        </div>
+    </div>
+</body>
+</html>

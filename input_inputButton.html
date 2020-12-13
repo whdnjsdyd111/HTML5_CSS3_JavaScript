@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>  input 버튼
+    일반적인 버튼은 input 속성인 button으로 생성할 수 있다. 버튼은 다양한 용도로 사용될 수 있다.
+    일반적으로 우리는 onclick 속성에 버튼이 클릭되면 실행되는 자바스크립트를 지정한다. onclick은 "버튼이 클릭이 되면"이라는 의미이다.
+    여기서는 간단하게 경고 대화 상자를 화면에 표시하는 alert()를 실행한다.
+
+    <form name="input" action="getid.jsp" method="get">
+        물품 가격 : 
+        <input type="text" name="user" /><br />
+        수량 : 
+        <input type="text" name="user" /><br />
+        <input type="button" value="계산" onclick="alert('10000원입니다.')" />
+    </form>
+
+</body>
+</html>

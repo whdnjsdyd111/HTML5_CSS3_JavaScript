@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        #one {
+            background-color: cyan;
+            width: 200px;
+            height: 50px;
+        }
+
+        #two {
+            position: static;   /* 문서의 정상적인 흐름에 따라서 배치 */
+            background-color: yellow;
+            width: 200px;
+            height: 50px;
+        }
+
+        #three {
+            background-color: lightgreen;
+            width: 200px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>  정적 위치 설정
+    정적 위치 설정(static positioning)이란 페이지의 정상적인 흐름에 따라 요소의 위치가 결정되는 방법이다.
+    즉 블록 요소는 박스처럼 상하로 쌓이게 되고 인라인 요소는 한 줄에 차례대로 배치된다.
+    정적 위치 설정을 사용하면 요소의 위치는 top, bottom, left, right 속성의 영향을 받지 않는다.
+    간단하게 3개의 블록을 생성하고 중간 블록을 static으로 지정해 보자.
+
+    <p id="one">block #1</p>
+
+    <div id="two">
+        block #2<br />
+        position:static;<br />
+    </div>
+
+    <p id="three">block #3</p>
+</body>
+</html>

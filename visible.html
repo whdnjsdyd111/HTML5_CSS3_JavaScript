@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        #a {
+            visibility: hidden;
+            border: 1px dotted red;
+        }
+
+        #b {
+            visibility: visible;
+            border: 1px dotted red;
+        }
+    </style>
+</head>
+<body>
+    가시성
+    가시성이란 어떤 요소를 보이거나 안 보이게 하는 것이다.
+    속성으로는 visibility가 사용된다.
+
+    - hidden: 요소를 보이지 않게 한다.
+    - visible(기본값): 요소를 보이게한다.
+
+    <h1>Visibility 속성</h1>
+    <img id="a" src="image1.png" width="150" height="120" alt="image1" />
+    <img id="b" src="image1.png" width="150" height="120" alt="image2" />
+
+    비슷한 것으로 display:none; 이 있다. 하지만 display:none 으로 설정하면 화면에서 자리도 차지하지 않고 완전히 제외된다.
+    따라서 일시적으로 어떤 요소를 보이지 않게 하려면 visibility 또는 display 중에서 하나를 골라서 사용하면 된다.
+</body>
+</html>

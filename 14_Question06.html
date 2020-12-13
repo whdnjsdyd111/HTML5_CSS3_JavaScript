@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <input id="local1" />
+    <button id="localStroage" onclick="storage()">로컬 스토리지 저장</button><br />
+    <input id="local2" />
+    <button id="localInquiry" onclick="inquiryStorage()">로컬 스토리지 조회</button>
+    <hr />
+    <input id="session1" />
+    <button id="sessionStroage" onclick="session()">세션 스토리지 저장</button><br />
+    <input id="session2" />
+    <button id="sessionInquiry" onclick="inquirySession()">세션 스토리지 조회</button>
+    <script>
+        function storage() {
+            if (('localStorage' in window) && window['localStorage'] !== null) {
+                if (localStorage.localValue) {
+                    localStorage.localValue = document.getElementById("local1").value;
+                }
+                else {
+                    localStorage.localValue = "값이 없음";
+                }
+            }
+            else {
+                alert("브라우저가 웹 스토리지를 지원하지 않습니다.");
+            }
+        }
+
+        function inquiryStorage() {
+            document.getElementById("local2").value = localStorage.localValue;
+        }
+
+        function session() {
+            if (('sessionStorage' in window) && window['sessionStorage'] !== null) {
+                if (sessionStorage.sessionValue) {
+                    sessionStorage.sessionValue = document.getElementById("session1").value;
+                }
+                else {
+                    sessionStorage.sessionValue = "값이 없음";
+                }
+            }
+            else {
+                alert("브라우저가 웹 스토리지를 지원하지 않습니다.");
+            }
+        }
+
+        function inquirySession() {
+            document.getElementById("session2").value = sessionStorage.sessionValue;
+        }
+    </script>
+</body>
+</html>

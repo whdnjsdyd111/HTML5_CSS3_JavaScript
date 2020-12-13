@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <button onclick="getGeolocation()">지도 보이기</button>
+    <div id="target"></div>
+    <script>
+        var myDiv = document.getElementById("target");
+
+        function getGeolocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showLocation);
+            }
+        }
+
+        function showLocation(position) {
+            var pos = position.coords.latitude + "," + position.coords.longitude;
+            var url = "http://www.google.co.kr/maps/@"
+                + pos + ",20z";
+            window.open(url);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <button onclick="getGeolocation()">위치 정보 얻기</button>
+    <div id="target"></div>
+    <script>
+        var myDiv = document.getElementById("target");
+
+        function getGeolocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showLocation, printError);
+            }
+        }
+
+        function showLocation(location) {
+            myDiv.innerHTML = "(위도: " + location.coords.latitude +
+                ", 경도: " + location.coords.longitude + ", 고도: " + location.coords.altitude + ")"
+        }
+
+        function printError(error) {
+
+            var msg = "";
+
+            switch (error.code) {
+                case error.PERMISSION_DENIED:
+                    msg = "사용자 거부";
+                    break;
+                case error.POSITION_UNAVAILABLE:
+                    msg = "지리 정보를 얻을 수 없음";
+                    break;
+                case error.TIMEOUT:
+                    msg = "시관 초과";
+                    break;
+                case error.UNKNOWN_ERROR:
+                    msg = "알 수 없는 오류 발생";
+                    break;
+            }
+
+            myDiv.innerHTML = msg;
+        }
+    </script>
+</body>
+</html>

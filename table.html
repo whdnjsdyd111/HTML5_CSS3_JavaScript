@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>  테이블
+    테이블(table)은 표 형태의 데이터를 표시하는 데 사용된다. 초기의 웹 페이지에서는 전체 페이지 레이아웃에도 테이블을 사용하였다.
+    테이블은 table 태그로 정의된다.
+
+    행과 열이 모두 2개인 다음과 같은 테이블을 가지고 설명하여 보자.
+
+                 데이터1    데이터2
+                    ↓        ↓
+            1행    홍길동     98
+            2행    김철수     80
+
+    HTML에서는 테이블의 하나의 행을 tr 태그로 표현한다. tr은 물론 "table row"의 약자이다.
+    행 안의 데이터는 어떻게 표현할까? 하나의 데이터는 td 태그 요소로 표현한다. td는 "table data"의 약자이다.
+
+    <table border="1">
+        <tr>
+            <td>홍길동</td>
+            <td>98</td>
+        </tr>
+        <tr>
+            <td>김철수</td>
+            <td>80</td>
+        </tr>
+    </table>
+
+    테이블에 따라서는 다음과 같이 각 열에 헤더(열의 제목)가 있는 경우가 있다. 이때는 tr 태그로 행을 만들고 th 태그를 사용하여 헤더를 생성해주면 된다.
+    th는 "table header"의 약자이다.
+
+    <table border="1">
+        <tr>
+            <th>영화제목</th>
+            <th>연도</th>
+            <th>감독</th>
+            <th>평가</th>
+        </tr>
+        <tr>
+            <td>라이프 오브 파이</td>
+            <td>2013</td>
+            <td>이안</td>
+            <td>8.68</td>
+        </tr>
+        <tr>
+            <td>레미제라블</td>
+            <td>2012</td>
+            <td>톰후퍼</td>
+            <td>8.28</td>
+        </tr>
+        <tr>
+            <td>장고: 분노의 추적자</td>
+            <td>2012</td>
+            <td>타란티노</td>
+            <td>8.29</td>
+        </tr>
+    </table>
+
+    모든 웹 브라우저는 th 태그 요소를 볼드체, 중앙 정렬로 표시한다.
+
+</body>
+</html>

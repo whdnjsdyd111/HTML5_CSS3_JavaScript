@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>  target 속성
+    target 속성은 각 링크가 클릭되었을 때, 새로운 페이지가 어디에 열리는지를 지정한다.
+    예를 들어 새로운 윈도우가 열리는지 아니면 현재 윈도우에서 새로운 페이지가 열리는지를 지정한다.
+
+    tartget         설명
+
+    _blank          새로운 윈도우에서 새로운 페이지를 연다.
+    _self           현재 윈도우에서 새로운 페이지를 적재한다.
+    _parent         부모 프레임에 새로운 페이지를 적재한다.
+    _top            현재 윈도우에 새로운 페이지를 적재하고 모든 프레임을 취소한다.
+
+    target 속성의 값 중에서 중요한 것은 "_blank"와 "_self"이다. "_self"가 디폴트 값이다.
+
+    <a href="https://www.google.com" target="_self">
+        google.com 방문1</a>
+    <a href="https://www.google.com"  target="_blank">
+        google.com 방문2</a>
+</body>
+</html>

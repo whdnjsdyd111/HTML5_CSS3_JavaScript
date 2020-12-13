@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#append").click(function () {
+                $("p").append("<b style='color: red'>Hello! </b>");
+            });
+
+            $("#prepend").click(function () {
+                $("p").prepend("<b style='color: red'>Hello! </b>");
+            });
+        })
+    </script>
+</head>
+<body>
+    <p id="target">I would like to say : </p><br />
+    <button id="append">append</button>
+    <button id="prepend">prepend</button>
+</body>
+</html>

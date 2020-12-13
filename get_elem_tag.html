@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+        <li>List Item 5</li>
+    </ul>
+
+    <script>
+        var arrUl = document.getElementsByTagName('ul')[0];
+        var allItem = arrUl.getElementsByTagName('li');
+
+        for (i = 0; i < allItem.length; i++) {
+            document.write(allItem[i].firstChild.data + "<br>");
+        }
+    </script>
+</body>
+</html>

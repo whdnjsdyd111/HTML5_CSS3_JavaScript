@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        var msg = "";
+        var time = new Date().getHours();   // 웹 브라우저로 현재 시간을 얻는다.
+
+        if (time < 12) {
+            msg = "Good Morning";
+        }
+        else if (time < 18) {
+            msg = "Good Afternoon";
+        }
+        else {
+            msg = "Good evening";
+        }
+
+        alert(msg);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

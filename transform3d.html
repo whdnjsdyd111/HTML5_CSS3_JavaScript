@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        div {
+            background-color: yellow;
+            width: 150px;
+            height: 150px;
+        }
+
+        .container {
+            border: 1px solid black;
+        }
+
+        .transformed {
+            background-color: green;
+            backface-visibility: visible;   /* 후면을 보이게 하는 속성 */
+            transform-origin: 50% 42%;      /* 변환 원점을 설정 */
+            transform: perspective(500px) rotateY(59deg) rotateX(0deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="transformed"></div>
+    </div>
+
+</body>
+</html>

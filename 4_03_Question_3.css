@@ -1,0 +1,15 @@
+﻿body
+{
+    background-color: yellow;
+    font-family: serif;
+    color: red;
+}
+
+h1
+{
+    border-bottom: 1px solid gray;
+    color: red;
+}
+
+p.first{ color: green; }    /* p 요소 중에서 클래스가 first인 요소의 글자색을 green으로 한다. */
+p.second { color: blue; }   /* p 요소 중에서 클래스가 second인 요소의 글자색을 blue로 한다. */

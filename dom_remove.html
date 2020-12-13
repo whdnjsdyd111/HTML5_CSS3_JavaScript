@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function removeNode() {
+            var parent = document.getElementById("first");
+            var child = document.getElementById("second1");
+            parent.removeChild(child);
+        }
+    </script>
+</head>
+<body>
+    <div id="first">
+        <p id="second1">첫 번째 단락</p>
+        <p id="second2">두 번째 단락</p>
+    </div>
+
+    <input type="button" onclick="removeNode()" value="제거하기" />
+</body>
+</html>

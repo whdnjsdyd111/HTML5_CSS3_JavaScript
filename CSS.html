@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        p {
+            background-color: yellow;
+        }
+
+        h1 {
+            background-color: yellow;
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    CSS는 HTML 요소를 페이지 위에 어떻게 그리느냐를 지시하는 명령의 집합이다.
+
+    1. 스타일을 변경하고 싶은 HTML 요소를 선택한다. 이것을 선택자(selector)라고 한다.
+    2. 선택자 뒤에 중괄호를 붙이고 이 중괄호 안에는 이들 요소를 어떻게 그리는지 기술한다.
+       이 부분을 선언(declaration)이라고 한다. 속성은 "이름:값"의 형식으로 기술한다.
+
+    예를 들어 p 요소의 배경색을 노란색으로 설정하는 CSS 선언을 살펴보자.
+
+    <!--    p { background-color: yellow; }     -->
+    위의 선언에서 선택자는 "p"이다. 이것은 단락을 나타내는 p 요소를 의미한다. 중괄호 안에 들어 있는 것이 선언이다.
+    "backgound-color"는 속성의 이름이고 "yellow"는 속성의 값이다.
+
+    앞의 선언은 p 요소의 배경색이 노란색임을 기술하고 있다. 각각의 CSS 선언은 항상 ;으로 끝나야 한다.
+
+    하나의 요소에 대하여 여러 개의 속성을 지정할 수도 있다. 만약 CSS 선언에 속성을 추가하고 싶다면 다음과 같이 추가한다.
+
+    <!--
+        p {
+            background-color: yellow;
+            border: 2px solid red;      // <p> 요소는 경계선을 가지며 경계선은 2픽셀 두께이고, 솔리드, 빨강색임을 기술
+        }    
+    -->
+
+        <!----> CSS의 위치
+
+    그렇다면 CSS는 어디에 있어야 하는가? 기본적으로 CSS는 HTML의 head 요소 내에서 style 태그 안에 적어주면 된다.
+    간단한 웹 페이지에 CSS를 추가하여 그 효과를 체험해보자.
+
+    head 태그 안에 style 태그를 삽입하고 여기에 p 요소의 배경색을 변경하는 CSS 문장을 추가해 본다.
+
+    <p>This is a paragraph.</p>
+    
+    하지만 스타일 시트는 외부 파일로도 존재할 수 있으며, 각 요소의 속성으로도 지정할 수 있다.
+    스타일 시트의 위치에 대해서는 차후에 다시 학습하자.
+
+    이번에는 좀 더 크게 변화를 주어 보자. h1 요소에 경계선을 그리고, 배경색을 노란색으로 변경하여 보자.
+    하나의 요소에 대하여 2개의 속성을 변경하였다.
+
+    <h1>This is a heading.</h1>
+
+        [참고]
+
+    CSS의 코드를 설명하기 위한 주석(comment)을 둘 수도 있다. 주석은 /*로 시작해서 */로 종료된다.
+
+    /* 주석 */
+</body>
+</html>

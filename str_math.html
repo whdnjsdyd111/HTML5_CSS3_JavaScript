@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function calc(type) {
+            x = Number(document.calculator.number1.value);
+            if (type == 1) {
+                y = Math.sin(x);
+            } else if (type == 2) {
+                y = Math.log(x);
+            } else if (type == 3) {
+                y = Math.sqrt(x);
+            } else {
+                y = Math.abs(x);
+            }
+            document.calculator.total.value = y;
+        }
+    </script>
+</head>
+<body>
+    <form name="calculator">
+        입력:         <input type="text" name="number1" /><br />
+        계산 결과:     <input type="text" name="total" /><br />
+        <input type="button" onclick="calc(1);" value="SIN" />
+        <input type="button" onclick="calc(2);" value="LOG" />
+        <input type="button" onclick="calc(3);" value="SQRT" />
+        <input type="button" onclick="calc(4);" value="ABS" />
+    </form>
+</body>
+</html>

@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #box1 {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            z-index: 200;      /* z값이 클수록 앞에 놓여진다. */
+        }
+
+        #box2 {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            z-index: 100;
+        }
+
+        #box3 {
+            position: absolute;
+            top: 60px;
+            left: 60px;
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1">box #1</div>
+    <div id="box2">box #2</div>
+    <div id="box3">box #3</div>
+</body>
+</html>

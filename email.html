@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>  이메일 입력
+    input 요소의 type을 "email"로 지정하면 이메일 주소를 입력받을 수 있다. 이것도 마찬가지로 text 타입으로 지정하는 것과 외양은 비슷하지만
+    required 속성을 설정하면 브라우저가 유효한 이메일 주소인지를 검사할 수 있다. 유효한 주소 검사는 "제출" 버튼을 눌렀을 때만 시행된다.
+
+    <form>
+        이메일 : <input type="email" name="email" required />
+    </form>
+
+    실행 과정에서 잘못된 이메일 주소에 대하여 브라우저가 경고 메세지를 표시하는 것을 볼 수 있다.
+    만약 좀 더 정교하게 검사하려면 pattern 속성을 지정하면 된다. pattern 속성에는 정규식(regular expression)을 넣어준다.
+    기본적으로는
+
+    /^[a-zA-Z0-9.!#$%&'*+/=?^_'{|}~-]+@[a-zA-Z0-9]+(?:\.[a-zA-Z0-9]+)*$/
+
+    과 같은 정규식으로 검사하게 된다.
+    여러 개의 이메일 주소를 쉼표로 구분하여 입력하고 싶다면 multiple 속성을 지정한다.
+
+</body>
+</html>

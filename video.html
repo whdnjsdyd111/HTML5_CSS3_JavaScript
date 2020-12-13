@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    비디오를 HTML 문서에 삽입하는 과정도 오디오와 거의 동일하다. 비디오는 video 태그를 사용한다.
+    비디오 파일도 src 파 속성을 이용해 지정한다.
+
+    <!--    <video src="movie.mp4" autoplay controls>       -->
+    video - 비디오 삽입태그
+    src - 비디오 소스 파일 경로 (URL)
+    autoplay 자동 재생
+    controls 화면에 제어기를 보일것
+
+        <!----> video 요소의 속성
+
+    video 요소는 다음과 같은 속성을 지원한다.
+
+    속성              설명
+
+    autoplay          이 속성이 존재하면 비디오를 자동으로 재생한다.
+    controls          이 속성이 존재하면 브라우저가 비디오 재생을 제어하는 컨트롤을 표시한다.
+    loop              이 속성이 존재하면 브라우저가 비디오를 반복하여 재생한다.
+    poster            비디오를 다운로드하는 중일 때 표시하는 이미지이다.
+    preload           사용자가 사용할 생각이 없더라도 전체 오디오를 다운로드한다.
+    muted             비디오의 오디오 출력을 중지한다.
+    src               재생할 오디오가 존재하는 URL을 지정한다.
+    width, height     비디오 재생기의 너비와 높이를 나타낸다.
+
+    여기서 약간 특이한 속성은 poster이다. poster는 비디오를 다운로드할 때 사용자한테 보여주는 그림이다.
+    간단히 비디오를 재생하는 HTML 문서를 작성해 보면 다음과 같다. 동영상은 어디서 구하는 것이 좋을까?
+    w3c 사이트에는 몇 개의 동영상이 준비되어 있다. 예를 들면 다음과 같다.
+
+    - https://media.w3.org/2010/05/bunny/movie.ogv
+
+    이것을 다운로드해서 실습해보자. 물론 원본 주소를 그대로 적어 주어도 된다.
+
+    <video controls  src="https://media.w3.org/2010/05/bunny/movie.ogv">
+        Your user agent does not support the HTML5 Video element.
+    </video>
+</body>
+</html>

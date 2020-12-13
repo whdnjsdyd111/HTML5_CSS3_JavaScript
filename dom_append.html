@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    
+</head>
+<body>
+    <script>
+        function addText(t) {
+            if (document.createTextNode) {
+                var node = document.createTextNode(t);
+                document.getElementById("dv").appendChild(node);
+            }
+        }
+    </script>
+    <div id="dv" onclick="addText('동적으로 텍스트가 추가')">여기를 클릭하세요.</div>
+</body>
+</html>

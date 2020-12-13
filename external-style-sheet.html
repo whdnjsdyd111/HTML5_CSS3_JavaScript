@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link type="text/css" rel="stylesheet" href="4_03_1.css" />
+</head>
+<body>  외부 스타일 시트
+    외부 스타일 시트는 말 그래도 스타일 시트를 외부에 파일로 저장하는 것이다. 외부 스타일 파일은 많은 페잊에 동일한 스타일을 적용하려고 할 때 좋은 방법이다.
+    외부 스타일 파일을 사용하면 전체 웹 페이지의 스타일을 하나의 스타일 파일로 변경할 수 있다.
+
+    각 HTML 페이지는 link 태그를 이용해서 스타일 파일에 연결해야 한다. link 태그는 헤드 부분에 있어야 한다.
+
+    <!--    <link type="text/css" rel="stylesheet" href="mystyle.css">   -->
+    외부 파일과 연결하려면 link 요소를 사용한다.
+    type - 외부 파일의 종류가 CSS 스타일 시트라는 것을 의미한다.
+    rel - HTML 파일과 외부 파일 간의 관계(relationship)를 나타낸다.
+    href - 외부 파일의 위치를 적어준다. URL 형식이다.
+
+    외부 스타일 시트도 단순한 텍스트 파일이다. 따라서 어떤 텍스트 편집기로도 작성이 가능하다. 이 파일은 HTML 태그는 포함하지 않아야 한다.
+    그리고 .css 라는 확장자를 가져야 한다.
+
+    일단 CSS 파일이 작성되면 다른 HTML 파일에서도 이 CSS 파일을 불러들여서 사용할 수 있다.
+
+    <h1>This is a headline.</h1>
+    <p>This is a paragraph.</p>
+</body>
+</html>

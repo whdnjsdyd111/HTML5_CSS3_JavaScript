@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    비디오 파일 형식
+    현재 많이 사용되는 비디오 형식은 MP4, WebM, Ogg 등의 3가지이다.
+
+    - MP4 : 'MPEG-4'기술을 사용한다. MPEG-1과 MPEG-2에 비해 적은 용량으로도 고품질의 영상 및 음성을 구현할 수 있다.
+    코덱은 H.264를 사용한다.
+    - WebM : 무료로 제공되는 개방형 고화질 영상 압축 형식의 영상 포맷이다. 구글이 지원하고 있다.
+    코덱은 VP8이라고 불린다.
+    - Ogg : 역시 무료이고 비디오 압축 형식이다. Theora 비디오 압축 기술이라 불린다.
+
+    오디오와 마찬가지로 모든 웹 브라우저에서 재생되는 비디오 형식은 아직까지 없다.
+    역시 웹 브라우저마다 내장된 코덱에 차이가 있기 때문이다.
+
+    브라우저                      MP4     WebM    Ogg
+
+    Internet Explorer 9 이상      YES     NO      NO
+    Chrome 6 이상                 YES     YES     YES
+    Firefox 3.6 이상              NO      YES     YES
+    Safari 5 이상                 YES     NO      NO
+    Opera 10.6 이상               NO      YES     YES
+
+    각 비디오 형식을 위한 MIME 타입은 아래와 같다.
+
+    비디오 형식      MIME 타입
+
+    MP4             video/mp4
+    WebM            video/webm
+    Ogg             video/ogg
+
+    예를 들어 HTML 문서가 위치하는 디렉토리에 비디오 파일 movie.webm이 존재한다고 가정하면 다음과 같이 HTML 문서를 작성할 수 있다.
+    웹 브라우저마다 지원하는 비디오 파일 형식이 다르기 때문에 한 가지 형태의 파일로는 모든 브라우저에서 재생할 수 없다.
+    따라서 오디오의 경우처럼 몇 개의 서로 다른 형식의 비디오 파일을 제공하는 것이 안전하다.
+    w3c 사이트에는 몇 개의 동영상이 준비되어 있다. 이것을 사용하여 실습해 보자.
+    https://media.w3.org/2010/05/sintel/trailer.mp4
+    https://media.w3.org/2010/05/sintel/trailer.ogv
+
+    <video width="640" height="480" controls>
+        <source src="https://media.w3.org/2010/05/sintel/trailer.mp4" type="video/ogg" />
+        <source src="https://media.w3.org/2010/05/sintel/trailer.ogv" type="audio/ogg" />
+        <p>Your user agent does not support HTML5. </p>
+    </video>
+
+    control 속성을 지정하면 비디오를 재생하고 중지할 수 있는 비디오 제어단을 표시한다.
+    비디오를 재생할 때는 width와 height 속성을 지정하는 편이 좋다. 높이와 폭이 지정되어 있으면 비디오를 위한 공간을 웹 브라우저가
+    미리 가늠할 수 있다. 그러나 이들이 지정되어 있지 않으면 브라우저는 비디오의 크기를 모르게 되고 적절한 공간을 확보할 수 없다.
+    즉 페이지 레이아웃이 비디오가 로딩되면서 변경될 수 있다. 또한 video 태그를 지원하지 않는 브라우저를 위해 텍스트를 넣어 주는 것도 좋다.
+    video 요소는 여러 개의 source 태그 요소를 허용하며 브라우저는 재생할 수 있는 첫 번째 형식을 사용한다.
+</body>
+</html>

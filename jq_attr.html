@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#img").click(function () {
+                alert($("#lawn").attr("src"));
+            });
+        })
+    </script>
+</head>
+<body>
+    <img id="lawn" src="lawn.png"
+         alt="" width="120" height="100" /><br />
+    <button id="img">attr</button>
+</body>
+</html>

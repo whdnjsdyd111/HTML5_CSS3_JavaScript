@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <p id="p1">This is a paragragh.</p>
+    <script>
+        function change() {
+            var p = document.getElementById('p1').style;
+            p.color = "red";
+            p.fontFamily = "Century Schoolbook";
+            p.fontStyle = "italic"
+        }
+    </script>
+    <input type="button" onclick="change()" value="눌러보세요" />
+</body>
+</html>

@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #one {
+            background-color: cyan;
+            width: 200px;
+            height: 50px;
+        }
+
+        #two {
+            position: relative; /* 정상적인 위치에서 왼쪽으로 30픽셀 */
+            left: 30px;
+            background-color: yellow;
+            width: 200px;
+            height: 50px;
+        }
+
+        #three {
+            background-color: lightgreen;
+            width: 200px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    상대 위치 설정
+    상대 위치 설정(relative positioning)은 정상적인 위치에서 상대적으로 요소가 배치되는 방법이다.
+    앞의 코드에서 #two에 해당하는 블록을 relative로 지정하고 left 속성에 30px을 지정하여 본다.
+
+    <p id="one">block #1</p>
+
+    <div id="two">
+        block #2<br />
+        position:static;<br />
+    </div>
+
+    <p id="three">block #3</p>
+
+    상대 위치에서 주의할 점은 요소의 정상적인 위치에 대하여 상대적이라는 점이다. 즉 정상적인 위치에서 30픽셀만큼 이동된 것이다.
+    상대 위치로 설정된 요소는 다른 요소 위에 겹치거나 이동될 수 있다. 하지만 요소를 위해 할당된 정상적인 공간은 없어진다.
+</body>
+</html>

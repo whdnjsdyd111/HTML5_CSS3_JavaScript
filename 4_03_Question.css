@@ -1,0 +1,16 @@
+﻿body
+{
+    background-color: yellow;   /* body의 배경색을 노란색으로 지정한다. */
+}
+
+h1, p
+{
+    font-family: serif;
+    color: black;    /* h1과 p에 대하여 폰트와 글자 색상을 정의한다. */
+}
+
+h1
+{
+    border-bottom: 1px solid gray;  /* h1의 아래쪽 경계선을 1픽셀 두께의 실선, 빨간색으로 정의 */
+    color: red; 
+}

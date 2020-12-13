@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function clock() {
+            var today = new Date();
+            var str = today.getHours() + " : " + today.getMinutes() + " : " + today.getSeconds();
+            document.write(str);
+            setTimeout('clock()', 1000);
+        }
+        clock();
+    </script>
+</head>
+<body>
+
+</body>
+</html>

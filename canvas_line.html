@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" width="300" height="200"></canvas>
+    <script>
+        var canvas = document.getElementById('myCanvas');
+        var context = canvas.getContext('2d');
+
+        context.beginPath();    // 경로 초기화
+        context.moveTo(0, 0);
+        context.lineTo(100, 100);
+        context.lineTo(150, 50);
+        context.lineTo(200, 100);
+        context.stroke();
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        table, td, th {
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<body>  테이블의 경계
+    테이블의 경계를 CSS로 설정하려면 border 속성을 사용한다. 경계선은 border 속성을 사용하는데 이 border 속성은 테이블에만 사용되는 속성은 아니다.
+    border 속성은 HTML 요소의 경계선을 설정할 때 사용하는 아주 중요한 속성이다. border는 스타일, 색상, 두께 등의 많은 속성을 가지고 있다.
+    이것을 다음과 같이 한 줄로 설정할 수도 있다.
+    
+        border: 5px         solid               red;
+            경계선의 두계     경계선의 스타일    경계선의 색상
+
+    경계선의 속성을 한 줄로 설정할 때는 반드시 border-width, border-style, border-color 순서로 적어주어야 한다.
+    아주 많이 사용되니 외워두도록 하자.
+
+    테이블의 table, th, td 요소의 경계선을 1픽셀 두께의 파란색 실선으로 설정하는 예제를 작성하여 보자.
+    앞으로 이 예제에서 스타일 부분만을 변경하게 될 것이다.
+
+    <table>
+        <tr>
+            <th>이름</th>
+            <th>이메일</th>
+        </tr>
+
+        <tr>
+            <td>김철수</td>
+            <td>chul@google.com</td>
+        </tr>
+
+        <tr>
+            <td>김영희</td>
+            <td>young@google.com</td>
+        </tr>
+    </table>
+
+    실제로 위의 코드를 실행해 보면 이중선이 나오는데 그 이우는 table 요소와 td 요소가 모두 별도의 경계선을 가지고 있기 때문이다.
+    만약 단일선을 원한다면 border-collapse 속성을 설정하면 된다.
+</body>
+</html>

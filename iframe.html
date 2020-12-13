@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>  iframe
+    iframe은 웹 페이지 안에서 다른 웹 페이지를 표현하고자 할 때, 사용한다. iframe은 "inline frame"의 약자이다.
+    흔히 광고를 위해 이것을 사용한다. 또는 하나의 페이지를 여러 프레임으로 나누어서 각각 다른 문서를 표시하고자 할 때도 사용한다.
+    iframe은 특이하게도 인터넷 익스플로러가 페이지 안에 프레임을 놓기 위해 사적으로 사용하던 태그였다.
+    이 기술은 "inline frame"이라고 불리었다. W3C는 이 iframe을 HTML 4.01부터 도입하였고 거의 모든 브라우저가 iframe을 지원한다.
+    인터넷을 보면 왼쪽은 HTML 소스를 보여주고 오른쪽은 웹 브라우저의 출력을 보여주는 사이트가 상당수 있다.(예로 w3schools.com).
+    사용자는 HTML 소스를 편집한 후에 버튼을 누르면 HTML 소스의 출력이 오른쪽 윈도우에 나타난다. 어떻게 웹 브라우저의 출력을
+    웹 브라우저 안에서 보여줄까> 바로 iframe 태그를 사용하였기 때문이다.
+
+    <!--
+        <!DOCTYPE html>                             My First Heading
+        <html>
+        <body>                                      My first paragraph
+
+        <h1>My First Heading</h1>           →
+
+        <p>My first paragraph.</p>
+
+        </body>
+        </html>
+    -->
+
+    예를 들어 inner.html 문서를 내부에서 표시하려면 다음과 같은 문장을 사용한다. iframe의 가로와 세로 길이를 300, 120으로 지정하였다.
+    단위는 픽셀이지만 퍼센트로도 변경할 수 있다.
+
+    <!--    <iframe src="inner.html" width="300" height="120"></iframe>     -->
+
+    <iframe src="iframe_inner.html" width="300" height="120"></iframe>
+</body>
+</html>

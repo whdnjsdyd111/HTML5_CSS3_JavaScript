@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function change() {
+            st = document.getElementById("str").value;
+            first = st.charAt(0);
+            st = st.replace(first, first.toUpperCase());
+            alert(st);
+        }
+    </script>
+</head>
+<body>
+    <h1>문자열 입력</h1>
+
+    <input type="text" id="str" />
+    <input type="button" onclick="change()" value="체인지" />
+</body>
+</html>

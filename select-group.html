@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        h1, p {
+            font-family: sans-serif;
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    선택자 그룹
+    만약 선택자를 콤마(,)로 분리하여 나열한다면, 이것은 각 선택자에 의하여 선택된 요소의 합을 의미한다.
+    이것을 선택자 그룹이라고 한다.
+
+    선택자         설명
+
+    s1, s2      s1로 선택된 요소와 s2로 선택된 요소를 합친다.
+
+    선택자 그룹을 사용하면 동일한 규칙을 가지는 선언을 하나로 축약할 수 있다.
+
+    h1 { font-family: sans-serif; }
+    h2 { font-family: sans-serif; }
+    h3 { font-family: sans-serif; }
+
+    위의 선언은 아래의 선언과 동일하다.
+
+    h1, h2, h3 { font-family: sans-serif; }
+
+    <h1>This is a heading1.</h1>
+    <p>This is a paragraph.</p>
+</body>
+</html>

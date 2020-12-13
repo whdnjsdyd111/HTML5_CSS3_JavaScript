@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function get() {
+            msg = document.getElementById("d").innerHTML;
+            alert(msg);
+        }
+        function set(msg) {
+            document.getElementById("d").innerHTML = msg;
+        }
+    </script>
+</head>
+<body>
+    <div id="d">여기가 div로 선언되었습니다.</div>
+
+    <a href="#" onclick="get()">div 요소 내용 출력하기</a><br />
+    <a href="#" onclick="set('변경되었습니다.')">div 요소 내용 변경하기</a>
+</body>
+</html>

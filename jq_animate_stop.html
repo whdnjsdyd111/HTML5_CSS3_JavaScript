@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#show").click(function () {
+                $("#lawn").animate({
+                    left: '100px',
+                    opacity: '0.5',
+                    width: '200px'
+                });
+            });
+
+            $("#stop").click(function () {
+                $("#lawn").stop();
+            });
+        });
+    </script>
+</head>
+<body>
+    <button id="show">Show it</button> <button id="stop">Stop</button>
+    <img id="lawn" src="lawn.png"
+         alt="" width="120" height="100" style="position: relative" />  <!-- position이 static이면 이동되지 않음 -->
+</body>
+</html>

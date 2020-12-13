@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        div {
+            border: 1px dotted red;
+            width: 400px;
+            height: 200px;
+        }
+    </style>
+
+    <script>
+        function allowDrag(e) {
+            e.preventDefault();
+        }
+
+        function handleDragStart(e) {
+            e.dataTransfer.effectAllowed = 'move';
+            e.dataTransfer.setData("text", e.target.id)
+        }
+
+        function handleDrop(e) {
+            e.preventDefault();
+            var child = e.dataTransfer.getData("text");
+            e.target.appendChild(document.getElementById(child));
+        }
+    </script>
+</head>
+<body>
+    <div ondrop="handleDrop(event)" ondragover="allowDrag(event)"></div>
+    <button id="btn" ondragstart="handleDragStart(event)" draggable="true">Drag me</button>
+</body>
+</html>

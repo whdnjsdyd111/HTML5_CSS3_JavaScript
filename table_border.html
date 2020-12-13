@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>  경계와 배경색 설정
+    테이블의 경계를 지정하지 않으면 테이블은 경계 없이 표시된다. 일반적인 경우에는 테이블의 경계를 표시하는 것이 낫다.
+    경계는 table 태그의 속성 border를 이용해 설정한다. 만약 앞의 영화 테이블에서 border 속성을 설정하지 않으면 표같은 것이 없이 표시된다.
+
+    테이블의 경계나 배경색 등은 CSS를 사용해 정의하는 것이 원칙이다. 하지만 table의 속성 border를 사용해 간단하게 경계를 설정하는 예제를 살펴보자.
+
+    <table border="1">
+        <tr>
+            <td>홍길동</td>
+            <td>98</td>
+        </tr>
+        <tr>
+            <td>김철수</td>
+            <td>80</td>
+        </tr>
+    </table>
+
+        [참고]
+
+    border 이외에도 bgcolor, align, cellspacing, frame, rules 와 같이 많은 속성이 있었지만
+    HTML5에서는 사용이 금지되었다. 그리고 border 속성은 값이 1을 권장하고 있다.
+    테이블의 스타일을 지정하는 것은 CSS를 사용해야 한다.
+</body>
+</html>

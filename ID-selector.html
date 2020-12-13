@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        #special {
+            background-color: yellow;
+            color: red;
+        }
+    </style>
+</head>
+<body>  아이디 선택자
+    아이디 선택자(id selector)를 선택하면 특정한 요소를 쉽게 선택할 수 있다.
+    아마 가장 많이 사용되는 선택자일 것이다.
+
+    #special { color: red; }
+        ↑
+    id가 special인 요소를 선택한다.
+
+    아이디 선택자를 사용하려면 먼저 HTML 요소를 정의할 때, id를 부여해야 한다. 다음과 같이 HTML 요소에 id를 부여한다.
+
+    <p id="special">id가 special인 단락입니다.</p>
+
+    CSS에서는 요소의 id 앞에 #을 붙이면 된다. 몇 가지의 예를 들어보자.
+
+    - 다음의 선택자는 아이디가 "special"인 요소를 선택한다.
+
+    #special { color: red; }
+
+    - 다음의 선택자는 h1 요소 중에서 아이디가 "special"인 요소를 선택한다.
+
+    h1#special { color: red; }
+
+</body>
+</html>

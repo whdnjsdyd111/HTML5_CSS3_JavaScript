@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        #one {
+            background-color: cyan;
+            width: 200px;
+            height: 50px;
+        }
+
+        #two {
+            position: absolute; 
+            top: 30px;
+            left: 30px;
+            background-color: yellow;
+            width: 200px;
+            height: 50px;
+        }
+
+        #container {
+            background-color: gray;
+            position: relative;
+        }
+
+        #three {
+            background-color: lightgreen;
+            width: 200px;
+            height: 50px;
+        }
+    </style>
+
+</head>
+<body>
+    절대 위치 설정
+    절대 위치(absolute positioning)는 전체 페이지를 기준으로 배치하는 방법이다.
+    즉 페이지의 시작 위치에서 top left, bottom, right 만큼 떨어진 위치에 배치된다.
+    앞의 코드에서 id="two"인ㅂ ㅡㄹ록을 absolute로 지정하고 top, left 속성에 30px를 지정하여 본다.
+    id="two"인 블록은 페이지의 시작 위치부터 (30, 30)만큼 떨어진 위치에 block #2가 배치된다.
+
+    <p id="one">block #1</p>
+
+    <div id="two">
+        block #2<br />
+        position:static;<br />
+    </div>
+
+    <p id="three">block #3</p>
+
+    절대 위치로 설정된 요소는 문서의 정상적인 흐름에서 제거되고 페이지 안의 고정된 위치에 표시된다.
+    또 top, left, bottom, right 속성은 모두 오프셋(offset)으로 생각해야 한다. 즉 right 2px은 오른쪽으로 2px만큼 이동하라는 의미가 아니고
+    페이지의 오른쪽 경계선에서 2px 만큼 떨어진 위치라는 의미이다.
+
+    만약 컨테이너가 있었다면 컨테이너에 상대적으로 배치된다. 즉 컨테이너의 시작 위치로부터 top, left, bottom, right 만큼 떨어진 위치에 배치된다.
+    컨테이너는 일반적으로 relative로 선언되어야 한다. static 으로 선언되면 안 된다.
+
+    <p id="one">block #1</p>
+
+    <div id="container">
+        container<br />
+        <div id="two">
+            block #2<br />
+            position:absolute;<br />
+            top:30px; left:30px;
+        </div>
+    </div>
+
+    <p id="three">block #3</p>
+
+</body>
+</html>

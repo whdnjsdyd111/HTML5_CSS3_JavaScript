@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        table.test1 th, table.test1 td {
+            color: white;
+            background-color: green;
+        }
+
+        table.test2, table.test2 th, table.test2 td {
+            border: 1px solid green;
+        }
+
+        table.test2 th {
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    테이블의 배경색
+    테이블의 배경색과 텍스트 색상을 변경하면 상당히 다른 테이블을 생성할 수 있다.
+    앞의 코드에서 스타일 부분만을 변경해 보자.
+
+    <table class="test1">
+        <tr>
+            <th>이름</th>
+            <th>이메일</th>
+        </tr>
+
+        <tr>
+            <td>김철수</td>
+            <td>chul@google.com</td>
+        </tr>
+
+        <tr>
+            <td>김영희</td>
+            <td>young@google.com</td>
+        </tr>
+    </table>
+
+    테이블 헤더와 테이블 데이터의 색상이 다른 테이블을 작성하여 보자.
+
+    <table class="test2">
+        <tr>
+            <th>이름</th>
+            <th>이메일</th>
+        </tr>
+
+        <tr>
+            <td>김철수</td>
+            <td>chul@google.com</td>
+        </tr>
+
+        <tr>
+            <td>김영희</td>
+            <td>young@google.com</td>
+        </tr>
+    </table>
+</body>
+</html>

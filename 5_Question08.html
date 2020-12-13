@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        table, td {
+            border: 3px solid black;
+        }
+
+        table {
+            background-color: yellow;
+        }
+
+        tr:nth-child(2n+1) {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>1</td>
+            <td rowspan="2">2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+        </tr>
+    </table>
+</body>
+</html>

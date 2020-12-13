@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>  테이블에서 열과 행의 병합
+    테이블에서 각 셀은 필요에 따라서 얼마든지 병합될 수 있다. 행이 병합되는 것을 행병합(row span)이라고 하고
+    열이 병합되는 것을 열병합(column span)이라고 한다. rowspan을 2라고 지정하면 현재 셀 위치에서 2개의 행을 병합하겠다는 의미이다.
+    colspan을 3이라고 지정하면 현재 셀 위치에서 3개의 열을 병합하겠다는 의미이다.
+
+    <table border="1">
+        <tr>
+            <th>1열</th>
+            <th>2열</th>
+            <th>3열</th>
+        </tr>
+        <tr>
+            <td rowspan="2">1행 1열</td>
+            <td>1행 2열</td>
+            <td>1행 3열</td>
+        </tr>
+        <tr>
+            <td>2행 2열</td>
+            <td>2행 3열</td>
+        </tr>
+        <tr>
+            <td colspan="3">3행 1열</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

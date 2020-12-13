@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        p {
+            background-color: lightgreen;
+            width: 200px;
+            height: 50px;
+        }
+
+        #target {
+            border: 1px solid black;
+            width: 300px;
+            height: 100px;
+            overflow: scroll;   /* overflow가 scroll로 설정되어 있다. 넘어가는 콘텐츠는 스크롤된다. */
+        }
+    </style>
+</head>
+<body>  overflow 속성
+    overflow 속성은 자식 요소가 부모 요소의 범위를 벗어났을 때, 어떻게 처리할 것인지를 지정한다.
+    overflow 속성에는 hidden, scroll 중의 하나를 지정할 수 있다.
+
+        - hidden    : 부모 영역을 벗어나는 부분을 보이지 않게 한다.
+        - scroll    : 부모 영역을 벗어나는 부분을 스크롤할 수 있도록 한다.
+        - auto      : 자동으로 스크롤바가 나타난다.
+
+    <div id="target">
+        <p>block #1</p>
+        <p>block #2</p>
+        <p>block #3</p>
+        <p>block #4</p>
+        <p>block #5</p>
+        <p>block #6</p>
+    </div>
+
+</body>
+</html>

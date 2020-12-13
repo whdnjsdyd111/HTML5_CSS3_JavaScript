@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        .test1 {
+            border: dotted 3px red;
+        }
+        .test2 {
+            border: dotted 3px red;
+        }
+    </style>
+</head>
+<body>  margin 속성을 이용한 수평 정렬
+    여기서 어떤 HTML 요소를 화면의 중앙에 위치시키고자 한다. 어떻게 하면 될까?
+    예전의 HTML 버전에는 많은 요소가 align이라는 속성을 지원하였다. 개발자는 <!--  <p align="center">  -->
+    와 같은 형식으로 HTML 요소를 화면의 중앙에 놓을 수 있었다. 하지만 HTML5는 align 속성을 삭제하였다.
+    CSS만을 사용하여 어떤 요소를 중앙 정렬하려면 어떻게 해야 하는가? 인라인 요소와 블록 요소로 나누어서 생각해 보자.
+
+        - 인라인 요소
+
+    텍스트나 em 태그와 같은 인라인 요소를 컨테이너의 중앙에 놓으려면 컨테이너의 text-align 속성을 사용하면 된다.
+    그렇게 하면 블록 수준의 컨테이너 안에서 인라인 요소가 중앙 정렬된다.
+    예를 들어 em 요소를 p 태그 안에서 중앙 정렬하는 예제를 작성해보자.
+
+    <p class="test1" style="text-align: center;">
+        <em class="test1">My Text</em>
+    </p>
+
+        - 블록 요소
+
+    h1, h2, p, table, div 태그와 같은 블록 요소를 중앙 정렬하려면 왼쪽 마진과 오른쪽 마진을 auto로 설정하면 된다.
+
+    <p class="test2" style="margin-left: auto; margin-right: auto; width: 50%;">
+        My Text
+    </p>
+
+    여기서 만약 블록 요소의 width를 지정하지 않으면 블록 요소가 전체 너비를 다 차지해서 중앙 정렬의 효과를 확인할 수 없다.
+    따라서 위의 예제처럼 width를 지정해야 효과를 확인할 수 있다.
+</body>
+</html>

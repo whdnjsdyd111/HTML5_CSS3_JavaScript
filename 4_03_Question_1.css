@@ -1,0 +1,12 @@
+﻿body
+{
+    background-color: yellow;
+    font-family: serif;     /* 공통적인 스타일을 여기에 정의한다. */
+    color: black;
+}
+
+h1
+{
+    border-bottom: 1px solid gray;  /* 차이가 나는 부분만 여기서 정의한다. */
+    color: red;
+}

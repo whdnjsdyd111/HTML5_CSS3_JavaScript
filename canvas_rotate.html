@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="myCanvas" width="300" height="200"></canvas>
+    <script>
+        var canvas = document.getElementById('myCanvas');
+        var context = canvas.getContext('2d');
+
+        context.fillStyle = "blue";
+        context.fillRect(0, 0, 100, 100);
+
+        context.translate(50, 50);
+        context.rotate(Math.PI / 4);
+        context.fillStyle = "red";
+        context.fillRect(0, 0, 100, 100);
+    </script>
+</body>
+</html>

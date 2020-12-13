@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        var w;
+        function openWindow() {
+            w = window.open('', '', 'width=200, height=100');
+            w.document.write("<p>오늘만 특가!!!</p>");
+            w.moveTo(0, 0);
+        }
+
+        function moveWindow() {
+            w.moveBy(10, 10);
+            w.focus();
+        }
+    </script>
+</head>
+<body>
+    <button onclick="openWindow()">윈도우 생성</button>
+    <button onclick="moveWindow()">윈도우 이동</button>
+</body>
+</html>

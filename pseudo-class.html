@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        a:link { color: blue; }
+        a:visited { color: green; }
+        a:hover { color: yellow; }
+
+        table:nth-child(2n+1) { color: red; }
+        table:nth-child(2n+0) { color: blue;}
+    </style>
+</head>
+<body>  의사 클래스
+    의사 클래스(pseudo-class)는 콜론(;)을 사용하여 표기한다. 의사 클래스는 용어 그대로 클래스가 정의된 것처럼 간주한다는 의미이다. 
+    예를 들어 a:link 라고 하면 a 요소에 클래스 link가 선언된 것처럼 생각하고 선택자를 만드는 것이다.
+
+    의사 클래스는 문서 트리의 외부에 있는 정보에 기반을 두어서 요소를 선택할 때, 사용된다.
+    복잡하지만 우리는 많이 사용되는 몇 개만 살펴보자. 예를 들어 하이퍼 링크가 방문 전과 방문 후의 색상을 다르게 할 수 있다.
+    이것은 다음과 같이 의사 클래스를 이용해서 선택할 수 있다.
+
+    - 다음의 선택자는 여러 가지 상태에 있는 a 요소를 선택한다. 여기서 :link, :visited, :hover가 바로 의사 클래스이다.
+
+    a:link { color: blue; }     // 아직 방문되지 않은 링크의 색상을 파랑색으로 한다.
+    a:visited { color: green; } // 방문된 링크의 색상은 녹색으로 한다.
+    a:hover { color: green; }   // 사용자가 링크 위에 있을 때
+
+    - 어떤 요소의 n번째 자식 요소는 다음과 같이 나타낸다. 예를 들어 테이블의 짝수 번째 행과 홀수 번째 생의 색상을 다르게 하려면 다음과 같이 한다.
+
+    table:nth-child(2n+1) { color:navy; }   // HTML 테이블의 홀수 번째 행
+    table:nth-child(2n+0) { color:maroon; } // HTML 테이블의 짝수 번째 행
+
+    <a href="https://www.naver.com">네이버</a>
+
+    <table>
+        <tr>
+            <td>1행 1열</td>
+            <td>1행 2열</td>
+        </tr>
+        <tr>
+            <td>2행 1열</td>
+            <td>2행 2열</td>
+        </tr>
+    </table>
+</body>
+</html>

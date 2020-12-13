@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function readFile() {
+            var files = document.getElementById('input').files;
+            output = "";
+            for (var i = 0, f; f = files[i]; i++) {
+                output += f.name + "\n";
+                output += f.type + "\n";
+                output += f.size + "\n";
+                output += f.lastModifiedDate + "\n";
+            }
+            document.getElementById('result').value = output;
+        }
+    </script>
+</head>
+<body>
+    <input type="file" id="input" name="input" />
+    <button id="readfile" onclick="readFile()">파일 읽기</button><br />
+    <textarea id="result" rows="6" cols="60"></textarea>
+</body>
+</html>

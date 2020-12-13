@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>title</title>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" language="javascript">
+        $(document).click(function () {
+            $("#driver").ready(function () {
+                $.post(
+                    "ajaxs.jsp",
+                    $("#testform").serialize(),
+                    function (data) {
+                        $("#message").html(data);
+                    }
+                );
+            });
+        });
+    </script>
+</head>
+<body>
+    <form id="testform">
+        <input type="text" name="name" />
+        <input type="button" value="입력" id="driver" />
+    </form>
+    <div id="message"></div>
+</body>
+</html>

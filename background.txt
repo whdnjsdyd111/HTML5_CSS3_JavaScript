@@ -1,0 +1,84 @@
+CSS를 이용하면 요소의 배경을 설정할 수 있다. 배경과 관련된 속성은 다음과 같다.
+
+	속성							속성
+		
+	background					한 줄에서 모든 배경 속성을 정의한다.
+	background-attachment		배경 이미지가 고정되어 있는지 스크롤되는지를 지정한다.
+	background-color			배경색을 정의한다.
+	background-image			배경 이미지를 정의한다.
+	background-position			배경 이미지의 시작 위치를 지정한다.
+	background-repeat			배경 이미지의 반복 여부를 지정한다.
+
+		//	배경색 설정
+
+background-color 속성은 요소의 배경색을 정의한다. 배경색도 색상이므로 16진수나 rgb 값, 색상 이름을 사용하여 설정할 수 있다.
+예를 들어 body 태그의 색상을 빨간색으로 설정하려면 다음 중의 한 문장을 사용하면 된다.
+
+	body { background-color: red; }				/* 배경을 빨간색으로 설정 */
+	body { background-color: rgb(255, 0, 0};	/* 배경을 빨간색으로 설정 */ 
+	body { background-color: #ff0000; }			/* 배경을 빨간색으로 설정 */
+
+		/	배경 이미지 설정
+
+background0image 속성을 사용해 배경으로 사용할 이미지를 지정할 수 있다. 예를 들어
+back.gif 이미지로 설정하려면 다음과 같이 한다.
+
+	body { background-image: url('back.gif'); }
+
+배경 이미지는 수평이나 수직 방향으로 반복되면서 칠해진다. 이미지에 따라서 수평이나 수직으로만 반복되는 것이 필요할 수 있다.
+이런 경우에는 background-repeat 특성을 설정하여 준다.
+
+body
+{
+	background-image: url('back.gif');
+	background-repeat: repeat-x;	/* x방향으로만 반복한다. */
+}
+
+만약 이미지를 한 번만 표시하고 반복하지 않는 경우에는 다음과 같이 no-repeat로 지정한다.
+
+body
+{
+	background-image: url('back.gif');
+	background-repeat: no-repeat;
+}
+
+예제로 back-image 를 살펴보자
+
+		//	배경 이미지 부착 방법
+
+background-attachment 속성은 배경 이미지의 부착 방법을 설정한다.
+
+	- scroll: 배경이 요소와 같이 스크롤된다. 디폴트 값이다.
+	- fixed: 배경이 뷰포트에 대하여 고정된다.
+	- local: 요소의 콘텐츠와 같이 스크롤된다.
+
+여기서 fixed로 설정하면 스크롤해도 배경 이미지는 움직이지 않는다.
+
+		//	배경 이미지 위치 설정
+
+background-position 속성은 배경 이미지의 위치를 설정한다. 위치는 물론 100px 200px과 같이 픽셀 단위 또는 퍼센트 단위로 지정할 수 있다.
+
+	background-position: 100px 200px;
+
+추가로 다음과 같은 키워드를 사용할 수 있다.
+
+	- left top, left center, left bottom
+	- right top, right center, right bottom
+	- center top, center center, center bottom
+
+		//	배경에 대한 속성을 한 줄로 설정하기
+
+배경에 관한 특성은 상당히 많다. 따라서 이것을 한 번에 표시할 수 있는 방법이 있다.
+
+	body { background: #ffffff		url('back.gif')		no-repeat		right top;			}
+			배경색을 흰색으로 결정		배경 이미지 설정		반복하지 않음		오른쪽 상단에 표시
+
+예를 들어 고정된 위치를 가지고 이미지를 한 번만 화면에 표시하는 예를 작성해보자. back-image2
+
+		//	배경 이미지의 크기 지정
+
+background-size 속성은 배경 이미지의 크기를 지정한다. CSS3 이전에는 배경 이미지 크기가 이미지의 실제 크기에 의하여 결정되었다.
+CSS3에서는 배경 이미지의 크기를 지정할 수 있다. 픽셀(px) 또는 퍼센트(%) 단위로 지정이 가능하다.
+만약 퍼센트를 사용하면 기준이 되는 크기는 부모 요소의 가로와 세로이다.
+
+예제 back-size 를 살펴보자

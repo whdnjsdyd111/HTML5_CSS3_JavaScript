@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        label {
+            display: inline-block;
+            width: 150px;
+        }
+
+        input {
+            display: inline-block;
+            width: 200px;
+        }
+    </style>    
+
+    <script>
+        function check() {
+            var name = document.getElementById('name').value;
+
+            var nameExp = /[a-zA-z]+/;
+            if (name.match(nameExp)) {
+                document.getElementById('span1').style.visibility = "hidden";
+            } else {
+                document.getElementById('span1').style.visibility = "visible";
+            }
+
+            var phone = document.getElementById('phone').value;
+            var phoneExp = /^\d{3}-\d{4}-\d{4}$/;
+            if (phone.match(phoneExp)) {
+                document.getElementById('span2').style.visibility = "hidden";
+            } else {
+                document.getElementById('span2').style.visibility = "visible";
+            }
+
+            var email = document.getElementById('email').value;
+            var emailExp = /\w+\@\w+\.\w+/;
+            if (email.match(emailExp)) {
+                document.getElementById('span3').style.visibility = "hidden";
+            } else {
+                document.getElementById('span3').style.visibility = "visible";
+            }
+
+            var password = document.getElementById('password').value;
+            var passwordChk = document.getElementById('passwordChk').value;
+            var passwordExp = /^\w{6,8}$/;
+
+            if (password == "") {
+                document.getElementById('span4').innerHTML = "비밀 번호를 입력하세요!"
+                document.getElementById('span4').style.visibility = "visible";
+                document.getElementById('span5').style.visibility = "hidden";
+            } else if (password.match(passwordExp)) {
+                if (password == passwordChk) {
+                    document.getElementById('span4').style.visibility = "hidden";
+                    document.getElementById('span5').style.visibility = "hidden";
+                }
+                else {
+                    document.getElementById('span5').style.visibility = "visible";
+                    document.getElementById('span4').style.visibility = "hidden";
+                }
+            } else {
+                document.getElementById('span4').innerHTML = "올바른 비밀 번호를 입력세요!"
+                document.getElementById('span4').style.visibility = "visible";
+                document.getElementById('span5').style.visibility = "hidden";
+            }
+
+
+        }
+    </script>
+</head>
+<body>
+    <h1>회원 신청서</h1>
+
+    <form>
+        <label>이름*</label>
+        <input type="text" id="name" /><span id="span1" style="visibility: hidden">올바른 이름을 입력하세요!</span>
+        <br />
+
+        <label>성별*</label>
+        <input type="radio" name="gender" style="width: 10px" id="gender" value="male" checked/> 남성
+        <input type="radio" name="gender" style="width: 10px" id="gender" value="female"/> 여성
+        <br />
+
+        <label>휴대폰 번호 Phone*</label>
+        <input type="text" id="phone"/><span id="span2" style="visibility: hidden">올바른 번호를 입력하세요!</span>
+        <br />
+
+        <label>이메일*</label>
+        <input type="text" id="email"/><span id="span3" style="visibility: hidden">올바른 이메일을 입력하세요!</span>
+        <br />
+
+        <label>패스워드(6-8 글자)*</label>
+        <input type="text" id="password"/><span id="span4" style="visibility: hidden"></span>
+        <br />
+
+        <label>패스워드 검증*</label>
+        <input type="text" id="passwordChk"/><span id="span5" style="visibility: hidden">패스워드를 일치시키세요!</span>
+        <br />
+
+        <label></label>
+        <input type="button" value="제출" onclick="check()" style="width: 80px"/>
+        <input type="reset" value="지우기" style="width: 80px" />
+   </form>
+</body>
+</html>

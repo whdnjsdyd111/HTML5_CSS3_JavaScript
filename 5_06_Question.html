@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        ul {
+            list-style: none;   /* 아무런 볼릿을 붙이지 않는다. */
+            text-align: center; /* 리스트 안 텍스트가 중앙 정렬 */
+            border-top: 1px solid red;
+            border-bottom: 1px solid red;   /* 리스트의 위와 아래에 경계선을 그림 다음 장에 학습 */
+            padding: 10px, 0;
+        }
+
+        ul li {
+            display: inline;    /* 리스트 항목이 한 줄에 차례로 배치 */
+            text-transform: uppercase;  /* 대문자 */
+            padding: 0 10px;    
+            letter-spacing: 10px;   /* 항목 간의 간격과 글자 간격 설정 */
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        ul li a:hover {
+            text-decoration: underline; /* 마우스가 위에 오면 밑 줄이 그려진다. */
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</body>
+</html>

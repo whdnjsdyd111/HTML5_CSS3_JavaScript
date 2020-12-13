@@ -1,0 +1,14 @@
+테이블의 스타일도 CSS를 사용하면 굉장히 개선될 수 있다. 테이블에서 많이 사용되는 속성은 다음과 같다.
+
+	속성					설명
+
+	border				테이블의 경계선
+	border-collapse		이웃한 셀의 경계선을 합칠 것인지 여부
+	width				테이블의 가로 길이
+	height				테이블의 세로 길이
+	border-spacing		테이블 셀 사이의 거리
+	empty-cells			공백 셀을 그릴 것인지 여부
+	table-align			테이블 셀의 정렬 설정
+
+테이블에 대한 CSS3 규격은 아직 확정되지 않았다. 확정되기 전까지는 2011년의 CSS2.1 규격을 참고하도록하자.
+https://www.w3c.org/TR/2011/REC-CSS2-20110607/tables.html

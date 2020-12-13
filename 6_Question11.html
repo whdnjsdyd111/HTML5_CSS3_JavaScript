@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <style>
+        div {
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            animation: 3s anim infinite ;
+            position: relative;
+        }
+
+        @keyframes anim {
+            0%      {left: 0px; top: 0px; }
+            25%     {left: 500px; top: 0px;}
+            50%     {left: 500px; top: 500px;}
+            75%     {left:0px; top:500px;}
+            100%    {left:0px; top:0px;}
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
